@@ -73,18 +73,101 @@ CMAKE_BINARY_DIR = F:\cppStudy\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/cppStudy.dir/all
+all: coreCPP/all
+all: cppProject/all
+all: staffGovSystem/all
+all: studyNotes/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: coreCPP/preinstall
+preinstall: cppProject/preinstall
+preinstall: staffGovSystem/preinstall
+preinstall: studyNotes/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/cppStudy.dir/clean
+clean: coreCPP/clean
+clean: cppProject/clean
+clean: staffGovSystem/clean
+clean: studyNotes/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory coreCPP
+
+# Recursive "all" directory target.
+coreCPP/all:
+
+.PHONY : coreCPP/all
+
+# Recursive "preinstall" directory target.
+coreCPP/preinstall:
+
+.PHONY : coreCPP/preinstall
+
+# Recursive "clean" directory target.
+coreCPP/clean:
+
+.PHONY : coreCPP/clean
+
+#=============================================================================
+# Directory level rules for directory cppProject
+
+# Recursive "all" directory target.
+cppProject/all:
+
+.PHONY : cppProject/all
+
+# Recursive "preinstall" directory target.
+cppProject/preinstall:
+
+.PHONY : cppProject/preinstall
+
+# Recursive "clean" directory target.
+cppProject/clean:
+
+.PHONY : cppProject/clean
+
+#=============================================================================
+# Directory level rules for directory staffGovSystem
+
+# Recursive "all" directory target.
+staffGovSystem/all: staffGovSystem/CMakeFiles/staffGovSystem.dir/all
+
+.PHONY : staffGovSystem/all
+
+# Recursive "preinstall" directory target.
+staffGovSystem/preinstall:
+
+.PHONY : staffGovSystem/preinstall
+
+# Recursive "clean" directory target.
+staffGovSystem/clean: staffGovSystem/CMakeFiles/staffGovSystem.dir/clean
+
+.PHONY : staffGovSystem/clean
+
+#=============================================================================
+# Directory level rules for directory studyNotes
+
+# Recursive "all" directory target.
+studyNotes/all:
+
+.PHONY : studyNotes/all
+
+# Recursive "preinstall" directory target.
+studyNotes/preinstall:
+
+.PHONY : studyNotes/preinstall
+
+# Recursive "clean" directory target.
+studyNotes/clean:
+
+.PHONY : studyNotes/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cppStudy.dir
@@ -112,6 +195,33 @@ cppStudy: CMakeFiles/cppStudy.dir/rule
 CMakeFiles/cppStudy.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStudy.dir\build.make CMakeFiles/cppStudy.dir/clean
 .PHONY : CMakeFiles/cppStudy.dir/clean
+
+#=============================================================================
+# Target rules for target staffGovSystem/CMakeFiles/staffGovSystem.dir
+
+# All Build rule for target.
+staffGovSystem/CMakeFiles/staffGovSystem.dir/all:
+	$(MAKE) $(MAKESILENT) -f staffGovSystem\CMakeFiles\staffGovSystem.dir\build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/depend
+	$(MAKE) $(MAKESILENT) -f staffGovSystem\CMakeFiles\staffGovSystem.dir\build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\cppStudy\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target staffGovSystem"
+.PHONY : staffGovSystem/CMakeFiles/staffGovSystem.dir/all
+
+# Build rule for subdir invocation for target.
+staffGovSystem/CMakeFiles/staffGovSystem.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\cppStudy\cmake-build-debug\CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 staffGovSystem/CMakeFiles/staffGovSystem.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\cppStudy\cmake-build-debug\CMakeFiles 0
+.PHONY : staffGovSystem/CMakeFiles/staffGovSystem.dir/rule
+
+# Convenience name for target.
+staffGovSystem: staffGovSystem/CMakeFiles/staffGovSystem.dir/rule
+
+.PHONY : staffGovSystem
+
+# clean rule for target.
+staffGovSystem/CMakeFiles/staffGovSystem.dir/clean:
+	$(MAKE) $(MAKESILENT) -f staffGovSystem\CMakeFiles\staffGovSystem.dir\build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/clean
+.PHONY : staffGovSystem/CMakeFiles/staffGovSystem.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

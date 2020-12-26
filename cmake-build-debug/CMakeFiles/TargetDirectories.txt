@@ -1,3 +1,12 @@
 F:/cppStudy/cmake-build-debug/CMakeFiles/cppStudy.dir
 F:/cppStudy/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/cppStudy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/cppStudy/cmake-build-debug/coreCPP/CMakeFiles/edit_cache.dir
+F:/cppStudy/cmake-build-debug/coreCPP/CMakeFiles/rebuild_cache.dir
+F:/cppStudy/cmake-build-debug/cppProject/CMakeFiles/edit_cache.dir
+F:/cppStudy/cmake-build-debug/cppProject/CMakeFiles/rebuild_cache.dir
+F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir
+F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/edit_cache.dir
+F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/rebuild_cache.dir
+F:/cppStudy/cmake-build-debug/studyNotes/CMakeFiles/edit_cache.dir
+F:/cppStudy/cmake-build-debug/studyNotes/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,4 @@
-CMakeLists.txt not found in C:\Users\唐昆\OneDrive - std.uestc.edu.cn\GitHub\cppStudy Select CMakeLists.txt
+"E:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\cppStudy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/cppStudy/cmake-build-debug

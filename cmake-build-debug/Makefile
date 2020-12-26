@@ -142,6 +142,19 @@ cppStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppStudy.dir\build.make CMakeFiles/cppStudy.dir/build
 .PHONY : cppStudy/fast
 
+#=============================================================================
+# Target rules for targets named staffGovSystem
+
+# Build rule for target.
+staffGovSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 staffGovSystem
+.PHONY : staffGovSystem
+
+# fast build rule for target.
+staffGovSystem/fast:
+	$(MAKE) $(MAKESILENT) -f staffGovSystem\CMakeFiles\staffGovSystem.dir\build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/build
+.PHONY : staffGovSystem/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +191,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cppStudy
+	@echo ... staffGovSystem
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

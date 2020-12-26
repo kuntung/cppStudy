@@ -23,6 +23,10 @@ staffGovSystem/CMakeFiles/staffGovSystem.dir/source/manager.cpp.obj: ../staffGov
 staffGovSystem/CMakeFiles/staffGovSystem.dir/source/worker.cpp.obj: ../staffGovSystem/header/worker.h
 staffGovSystem/CMakeFiles/staffGovSystem.dir/source/worker.cpp.obj: ../staffGovSystem/source/worker.cpp
 
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj: ../staffGovSystem/header/boss.h
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj: ../staffGovSystem/header/employee.h
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj: ../staffGovSystem/header/manager.h
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj: ../staffGovSystem/header/worker.h
 staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj: ../staffGovSystem/header/workerManager.h
 staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj: ../staffGovSystem/source/workerManager.cpp
 

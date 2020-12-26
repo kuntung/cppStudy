@@ -6,17 +6,38 @@
 #define CPPSTUDY_WORKERMANAGER_H
 #include<iostream>
 #include "header/worker.h"
+#include "header/employee.h"
+#include "header/boss.h"
+#include "header/manager.h"
+#include <fstream>
+
+#define FILENAME "workerFile.txt"
+
 using namespace std;
 
 class WorkerManager{
 public:
-    WorkerManager();//æ„é€ å‡½æ•°
-    ~WorkerManager();//ææ„å‡½æ•°
-    void show_menu(); //æ˜¾ç¤ºç•Œé¢
-    void exit_system(); //é€€å‡ºç³»ç»Ÿ
-    void add_Emp();//æ·»åŠ èŒå·¥
-    int m_EmpNum; //è®°å½•æ–‡ä»¶ä¸­çš„äººæ•°ä¸ªæ•°
-    Worker ** m_EmpArray; //å‘˜å·¥æ•°ç»„çš„æŒ‡é’ˆ
+    WorkerManager();//¹¹Ôìº¯Êı
+    ~WorkerManager();//Îö¹¹º¯Êı
+    void show_menu(); //ÏÔÊ¾½çÃæ
+    void exit_system(); //ÍË³öÏµÍ³
+    void add_Emp();//Ìí¼ÓÖ°¹¤
+    void save(); //±£´æÎÄ¼ş
+    int get_EmpNum(); //Í³¼ÆÒÑÓĞÖ°¹¤ÈËÊı
+    void init_Emp(); //³õÊ¼»¯Ô±¹¤
+    void show_Emp(); //ÏÔÊ¾Ô±¹¤ĞÅÏ¢
+    void del_Emp(int id); //¸ù¾İÖ°¹¤±àºÅÉ¾³ıÔ±¹¤
+    void del_Emp(string name); //ÖØÔØº¯Êı£¬¸ù¾İĞÕÃûÉ¾³ıÔ±¹¤
+    int IsExit(int id); //ÅĞ¶ÏÄ³Î»Ô±¹¤ÊÇ·ñ´æÔÚ£¬Èç¹û´æÔÚÔò·µ»ØÆäÔÚÊı×éÖĞµÄÎ»ÖÃ£¬²»´æÔÚÔò·µ»Ø-1
+    int IsExit(string name); //ÅĞ¶ÏÄ³Î»Ô±¹¤ÊÇ·ñ´æÔÚ£¬Èç¹û´æÔÚÔò·µ»ØÆäÔÚÊı×éÖĞµÄÎ»ÖÃ£¬²»´æÔÚÔò·µ»Ø-1
+
+
+
+    int m_EmpNum; //¼ÇÂ¼ÎÄ¼şÖĞµÄÈËÊı¸öÊı
+    Worker ** m_EmpArray; //Ô±¹¤Êı×éµÄÖ¸Õë,Ö¸Ïòworker¸¸ÀàµÄÖ¸ÕëµÄÖ¸Õë
+    bool m_FileIsEmpty; //±êÖ¾ÎÄ¼şÊÇ·ñÎª¿Õ
+
+
 
 };
 #endif //CPPSTUDY_WORKERMANAGER_H

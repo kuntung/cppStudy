@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-F:/cppStudy/staffGovSystem/header/boss.h
+../staffGovSystem/header/boss.h
 worker.h
-F:/cppStudy/staffGovSystem/header/worker.h
+../staffGovSystem/header/worker.h
 iostream
 -
 string
 -
 
-F:/cppStudy/staffGovSystem/header/employee.h
+../staffGovSystem/header/employee.h
 worker.h
-F:/cppStudy/staffGovSystem/header/worker.h
+../staffGovSystem/header/worker.h
 iostream
 -
 string
 -
 
-F:/cppStudy/staffGovSystem/header/manager.h
+../staffGovSystem/header/manager.h
 worker.h
-F:/cppStudy/staffGovSystem/header/worker.h
+../staffGovSystem/header/worker.h
 iostream
 -
 string
 -
 
-F:/cppStudy/staffGovSystem/header/worker.h
+../staffGovSystem/header/worker.h
 iostream
 -
 string
@@ -38,19 +38,21 @@ string
 
 F:/cppStudy/staffGovSystem/header/workerManager.h
 iostream
+-
+header/worker.h
+F:/cppStudy/staffGovSystem/header/header/worker.h
+header/employee.h
+F:/cppStudy/staffGovSystem/header/header/employee.h
+header/boss.h
+F:/cppStudy/staffGovSystem/header/header/boss.h
+header/manager.h
+F:/cppStudy/staffGovSystem/header/header/manager.h
+fstream
 -
 
 F:/cppStudy/staffGovSystem/main.cpp
 iostream
 -
-fstream
--
 header/workerManager.h
 F:/cppStudy/staffGovSystem/header/workerManager.h
-header/boss.h
-F:/cppStudy/staffGovSystem/header/boss.h
-header/manager.h
-F:/cppStudy/staffGovSystem/header/manager.h
-header/employee.h
-F:/cppStudy/staffGovSystem/header/employee.h
 

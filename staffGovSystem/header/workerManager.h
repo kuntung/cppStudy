@@ -30,12 +30,18 @@ public:
     void del_Emp(string name); //重载函数，根据姓名删除员工
     int IsExit(int id); //判断某位员工是否存在，如果存在则返回其在数组中的位置，不存在则返回-1
     int IsExit(string name); //判断某位员工是否存在，如果存在则返回其在数组中的位置，不存在则返回-1
-
+    void edit_Emp(int id); //根据职工编号修改职工信息
+    void edit_Emp(string name); //根据职工姓名修改职工信息
+    void find_Emp(int id); //根据职工编号查找
+    void find_Emp(string name); //根据职工姓名查找
+    void sort_Emp(); //职工排序算法
+    void clear_Emp(); //清空职工数据
 
 
     int m_EmpNum; //记录文件中的人数个数
     Worker ** m_EmpArray; //员工数组的指针,指向worker父类的指针的指针
     bool m_FileIsEmpty; //标志文件是否为空
+    int m_sorted; //标志文件是否被排序成功,无序为-1,降序为0，升序排序则为1，
 
 
 

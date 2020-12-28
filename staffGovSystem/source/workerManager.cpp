@@ -246,7 +246,7 @@ void WorkerManager::del_Emp(string name) {
         cout << "文件不存在或者记录为空！" << endl;
     }
     else{
-        //按照员工编号删除
+        //按照员工姓名删除
         int index = this->IsExit(name);
         if(index != -1){
             //将数组的最后一个元素用来补空缺。并且将数组规模减一
@@ -258,6 +258,9 @@ void WorkerManager::del_Emp(string name) {
         }
 
     }
+    //按任意键后清屏
+    system("pause");
+    system("cls");
 }
 
 void WorkerManager::del_Emp(int id) {
@@ -318,6 +321,218 @@ int WorkerManager::IsExit(int id) {
         }
         return -1;
     }
+}
+
+void WorkerManager::edit_Emp(int id) {
+    if(this->m_FileIsEmpty){
+        cout << "文件不存在或者记录为空！" << endl;
+    }
+    else{
+        //按照员工编号删除
+        int index = this->IsExit(id);
+        if(index != -1){
+            //对已有的员工信息进行修改
+            //打印修改前信息
+            this->m_EmpArray[index]->show_info();
+            //传入修改后的信息
+            Worker * worker = nullptr;
+            int new_id;
+            string new_name;
+            int new_dId;
+            cout << "请输入要修改的职工信息:" << endl;
+            cout<<"职工编号:";
+            cin >> new_id;
+            cout << "职工姓名";
+            cin >> new_name;
+            cout << "职工部门";
+            cin >> new_dId;
+            switch(new_dId){
+                case 1:
+                    worker = new Employee(new_id, new_name, new_dId);
+                    break;
+                case 2:
+                    worker = new Manager(new_id, new_name, new_dId);
+                    break;
+                case 3:
+                    worker = new Boss(new_id, new_name, new_dId);
+                    break;
+            }
+            this->m_EmpArray[index] = worker;
+        }
+        else{
+            cout<<"未找到该员工，无法进行删除操作"<<endl;
+        }
+
+        //将修改后的信息保存
+        this->save();
+    }
+    //按任意键后清屏
+    system("pause");
+    system("cls");
+}
+
+void WorkerManager::edit_Emp(string name) {
+    if(this->m_FileIsEmpty){
+        cout << "文件不存在或者记录为空！" << endl;
+    }
+    else{
+        //按照员工姓名删除
+        int index = this->IsExit(name);
+        if(index != -1){
+            //对已有的员工信息进行修改
+            //打印修改前信息
+            this->m_EmpArray[index]->show_info();
+            //传入修改后的信息
+            Worker * worker = nullptr;
+            int new_id;
+            string new_name;
+            int new_dId;
+            cout << "请输入要修改的职工信息:" << endl;
+            cout<<"职工编号:";
+            cin >> new_id;
+            cout << "职工姓名";
+            cin >> new_name;
+            cout << "职工部门";
+            cin >> new_dId;
+            switch(new_dId){
+                case 1:
+                    worker = new Employee(new_id, new_name, new_dId);
+                    break;
+                case 2:
+                    worker = new Manager(new_id, new_name, new_dId);
+                    break;
+                case 3:
+                    worker = new Boss(new_id, new_name, new_dId);
+                    break;
+            }
+            this->m_EmpArray[index] = worker;
+        }
+        else{
+            cout<<"未找到该员工，无法进行删除操作"<<endl;
+        }
+
+        //将修改后的信息保存
+        this->save();
+    }
+    //按任意键后清屏
+    system("pause");
+    system("cls");
+}
+
+void WorkerManager::find_Emp(int id) {
+    if(this->m_FileIsEmpty){
+        cout << "文件不存在或者记录为空！" << endl;
+    }
+    else{
+        //按照员工编号进行显示
+        int index = this->IsExit(id);
+        if(index != -1){
+            //对已有的员工信息进行显示
+            //打印修改前信息
+            this->m_EmpArray[index]->show_info();
+        }
+        else{
+            cout<<"未找到该员工"<<endl;
+        }
+    }
+    //按任意键后清屏
+    system("pause");
+    system("cls");
+}
+
+void WorkerManager::find_Emp(string name) {
+    if(this->m_FileIsEmpty){
+        cout << "文件不存在或者记录为空！" << endl;
+    }
+    else{
+        //按照员工姓名进行显示
+        bool find_flag = false; //刚开始时默认不存在该员工
+        for(int i = 0; i < this->m_EmpNum; i++){
+            if(this->m_EmpArray[i]->m_name == name){
+                cout << "查找成功，职工编号为:"
+                    << this->m_EmpArray[i]->m_id
+                    << "相关信息如下:" << endl;
+                find_flag = true;
+                this->m_EmpArray[i]->show_info();
+            }
+        }
+        if(!find_flag){
+            cout<<"未找到该员工"<<endl;
+        }
+    }
+    //按任意键后清屏
+    system("pause");
+    system("cls");
+}
+
+void WorkerManager::sort_Emp() {
+    if(this->m_FileIsEmpty){
+        cout << "当前文件不存在或无记录" << endl;
+        return;
+    }
+    else{
+        cout << "请选择排序方式：" << endl;
+        cout << "1. 按职工号进行升序排序" << endl;
+        cout << "2. 按职工号进行降序排序" << endl;
+        int sort_selection = 0;
+        cin >> sort_selection;
+
+        for(int i = 0; i < this->m_EmpNum; i++){
+            int minOrMax = i; //记录当前最小或者最大元素的位置
+            for(int j = i + 1; j < this->m_EmpNum; j++){
+                if(sort_selection == 1){ //升序排序
+                    if(this->m_EmpArray[minOrMax]->m_id > this->m_EmpArray[j]->m_id){
+                        minOrMax = j;
+                    }
+                }
+                else{
+                    if(this->m_EmpArray[minOrMax]->m_id < this->m_EmpArray[j]->m_id){
+                        minOrMax = j;
+                    }
+                }
+                //进行判断并交换位置
+                if(minOrMax != i){
+                    Worker *temp = this->m_EmpArray[i];
+                    this->m_EmpArray[i] = this->m_EmpArray[minOrMax];
+                    this->m_EmpArray[minOrMax] = temp;
+                }
+            }
+        }
+        cout << "排序成功,排序后结果为:" << endl;
+        this->save();
+        this->show_Emp();
+    }
+
+}
+
+//清除职工相关信息
+void WorkerManager::clear_Emp() {
+    cout << "确认清空?" << endl;
+    cout << "1.确认" << endl;
+    cout << "2.返回" << endl;
+
+    int clear_selection = 0;
+    cin >> clear_selection;
+
+    if(clear_selection == 1){
+        //打开模式， ios::trunc,如果存在该文件则将其删除并重新创建
+        ofstream ofs(FILENAME, ios::trunc);
+        ofs.close();
+        if( this->m_EmpArray != nullptr){
+            for(int i = 0; i < this->m_EmpNum; i++){
+                if(this->m_EmpArray[i] != nullptr){
+                    delete this->m_EmpArray[i];
+                }
+            }
+            this->m_EmpNum = 0;
+            delete[] this->m_EmpArray;
+            this->m_EmpArray = nullptr;
+            this->m_FileIsEmpty = true;
+        }
+        cout << "清空成功！" << endl;
+    }
+    system("pause");
+    system("cls");
 }
 
 

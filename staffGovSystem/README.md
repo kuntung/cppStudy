@@ -96,7 +96,7 @@ if(ifs.eof()){
 ## 按照员工编号进行排序
 功能描述：按照职工编号进行排序，排序的顺序由用户指定
 
-### 排序算法实现
+### [排序算法实现](https://github.com/hustcc/JS-Sorting-Algorithm)
 1. 选择排序
 2. 冒泡排序
 

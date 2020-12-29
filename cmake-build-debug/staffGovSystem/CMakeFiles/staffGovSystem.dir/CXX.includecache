@@ -36,23 +36,23 @@ iostream
 string
 -
 
-F:/cppStudy/staffGovSystem/header/workerManager.h
+/home/tangkun/github/cppStudy/staffGovSystem/header/workerManager.h
 iostream
 -
 header/worker.h
-F:/cppStudy/staffGovSystem/header/header/worker.h
+/home/tangkun/github/cppStudy/staffGovSystem/header/header/worker.h
 header/employee.h
-F:/cppStudy/staffGovSystem/header/header/employee.h
+/home/tangkun/github/cppStudy/staffGovSystem/header/header/employee.h
 header/boss.h
-F:/cppStudy/staffGovSystem/header/header/boss.h
+/home/tangkun/github/cppStudy/staffGovSystem/header/header/boss.h
 header/manager.h
-F:/cppStudy/staffGovSystem/header/header/manager.h
+/home/tangkun/github/cppStudy/staffGovSystem/header/header/manager.h
 fstream
 -
 
-F:/cppStudy/staffGovSystem/main.cpp
+/home/tangkun/github/cppStudy/staffGovSystem/main.cpp
 iostream
 -
 header/workerManager.h
-F:/cppStudy/staffGovSystem/header/workerManager.h
+/home/tangkun/github/cppStudy/staffGovSystem/header/workerManager.h
 

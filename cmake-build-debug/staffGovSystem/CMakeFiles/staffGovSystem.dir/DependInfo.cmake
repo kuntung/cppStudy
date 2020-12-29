@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/cppStudy/staffGovSystem/main.cpp" "F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.obj"
-  "F:/cppStudy/staffGovSystem/source/boss.cpp" "F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/boss.cpp.obj"
-  "F:/cppStudy/staffGovSystem/source/employee.cpp" "F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/employee.cpp.obj"
-  "F:/cppStudy/staffGovSystem/source/manager.cpp" "F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/manager.cpp.obj"
-  "F:/cppStudy/staffGovSystem/source/worker.cpp" "F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/worker.cpp.obj"
-  "F:/cppStudy/staffGovSystem/source/workerManager.cpp" "F:/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj"
+  "/home/tangkun/github/cppStudy/staffGovSystem/main.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.o"
+  "/home/tangkun/github/cppStudy/staffGovSystem/source/boss.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/boss.cpp.o"
+  "/home/tangkun/github/cppStudy/staffGovSystem/source/employee.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/employee.cpp.o"
+  "/home/tangkun/github/cppStudy/staffGovSystem/source/manager.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/manager.cpp.o"
+  "/home/tangkun/github/cppStudy/staffGovSystem/source/worker.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/worker.cpp.o"
+  "/home/tangkun/github/cppStudy/staffGovSystem/source/workerManager.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

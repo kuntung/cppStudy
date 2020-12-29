@@ -1,8 +1,8 @@
-# Install script for directory: F:/cppStudy
+# Install script for directory: /home/tangkun/github/cppStudy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cppStudy")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -34,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/cppStudy/cmake-build-debug/coreCPP/cmake_install.cmake")
+  include("/home/tangkun/github/cppStudy/cmake-build-debug/coreCPP/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/cppStudy/cmake-build-debug/cppProject/cmake_install.cmake")
+  include("/home/tangkun/github/cppStudy/cmake-build-debug/cppProject/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/cppStudy/cmake-build-debug/staffGovSystem/cmake_install.cmake")
+  include("/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/cppStudy/cmake-build-debug/studyNotes/cmake_install.cmake")
+  include("/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/cppStudy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tangkun/github/cppStudy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

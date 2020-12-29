@@ -1,3 +1,1 @@
-"E:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\staffGovSystem.dir/objects.a
-E:\PROGRA~1\mingw64\bin\ar.exe cr CMakeFiles\staffGovSystem.dir/objects.a @CMakeFiles\staffGovSystem.dir\objects1.rsp
-E:\PROGRA~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\staffGovSystem.dir/objects.a -Wl,--no-whole-archive  -o staffGovSystem.exe -Wl,--out-implib,libstaffGovSystem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\staffGovSystem.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/staffGovSystem.dir/main.cpp.o CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o CMakeFiles/staffGovSystem.dir/source/worker.cpp.o CMakeFiles/staffGovSystem.dir/source/employee.cpp.o CMakeFiles/staffGovSystem.dir/source/boss.cpp.o CMakeFiles/staffGovSystem.dir/source/manager.cpp.o  -o staffGovSystem 

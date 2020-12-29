@@ -8,171 +8,233 @@
 		<Option virtualFolders="CMake Files\;CMake Files\coreCPP\;CMake Files\cppProject\;CMake Files\staffGovSystem\;CMake Files\studyNotes\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/cppStudy/cmake-build-debug"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="cppStudy">
-				<Option output="F:/cppStudy/cmake-build-debug/cppStudy.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/cppStudy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppStudy"/>
-					<CompileFile command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="cppStudy/fast">
-				<Option output="F:/cppStudy/cmake-build-debug/cppStudy.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/cppStudy/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppStudy/fast"/>
-					<CompileFile command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="F:/cppStudy/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/cppStudy/cmake-build-debug"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppStudy">
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/cppStudy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppStudy"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppStudy/fast">
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/cppStudy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppStudy/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="staffGovSystem">
-				<Option output="F:/cppStudy/cmake-build-debug/staffGovSystem/staffGovSystem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/cppStudy/cmake-build-debug/staffGovSystem"/>
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/staffGovSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/cppStudy/staffGovSystem/."/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/home/tangkun/github/cppStudy/staffGovSystem/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 staffGovSystem"/>
-					<CompileFile command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 staffGovSystem"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="staffGovSystem/fast">
-				<Option output="F:/cppStudy/cmake-build-debug/staffGovSystem/staffGovSystem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/cppStudy/cmake-build-debug/staffGovSystem"/>
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/staffGovSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="F:/cppStudy/staffGovSystem/."/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/home/tangkun/github/cppStudy/staffGovSystem/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 staffGovSystem/fast"/>
-					<CompileFile command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;F:/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 staffGovSystem/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="studyNotes">
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/studyNotes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tangkun/github/cppStudy/studyNotes/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 studyNotes"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="studyNotes/fast">
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/studyNotes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tangkun/github/cppStudy/studyNotes/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 studyNotes/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/cppStudy/main.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/main.cpp">
 			<Option target="cppStudy"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/header/boss.h">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/header/boss.h">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/header/employee.h">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/header/employee.h">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/header/manager.h">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/header/manager.h">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/header/worker.h">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/header/worker.h">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/header/workerManager.h">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/header/workerManager.h">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/main.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/main.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/source/boss.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/boss.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/source/employee.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/employee.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/source/manager.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/manager.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/source/worker.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/worker.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/source/workerManager.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/workerManager.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/CMakeLists.txt">
+		<Unit filename="/home/tangkun/github/cppStudy/studyNotes/courseProject/funcTemplate.cpp">
+			<Option target="studyNotes"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/studyNotes/courseProject/test.cpp">
+			<Option target="studyNotes"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/coreCPP/CMakeLists.txt">
+		<Unit filename="/home/tangkun/github/cppStudy/coreCPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\coreCPP\"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/cppProject/CMakeLists.txt">
+		<Unit filename="/home/tangkun/github/cppStudy/cppProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cppProject\"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/staffGovSystem/CMakeLists.txt">
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\staffGovSystem\"/>
 		</Unit>
-		<Unit filename="F:/cppStudy/studyNotes/CMakeLists.txt">
+		<Unit filename="/home/tangkun/github/cppStudy/studyNotes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\studyNotes\"/>
 		</Unit>
 	</Project>

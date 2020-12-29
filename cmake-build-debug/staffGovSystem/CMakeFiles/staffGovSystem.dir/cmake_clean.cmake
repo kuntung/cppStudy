@@ -1,13 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/staffGovSystem.dir/main.cpp.obj"
-  "CMakeFiles/staffGovSystem.dir/source/boss.cpp.obj"
-  "CMakeFiles/staffGovSystem.dir/source/employee.cpp.obj"
-  "CMakeFiles/staffGovSystem.dir/source/manager.cpp.obj"
-  "CMakeFiles/staffGovSystem.dir/source/worker.cpp.obj"
-  "CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.obj"
-  "libstaffGovSystem.dll.a"
-  "staffGovSystem.exe"
-  "staffGovSystem.exe.manifest"
+  "CMakeFiles/staffGovSystem.dir/main.cpp.o"
+  "CMakeFiles/staffGovSystem.dir/source/boss.cpp.o"
+  "CMakeFiles/staffGovSystem.dir/source/employee.cpp.o"
+  "CMakeFiles/staffGovSystem.dir/source/manager.cpp.o"
+  "CMakeFiles/staffGovSystem.dir/source/worker.cpp.o"
+  "CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o"
+  "staffGovSystem"
   "staffGovSystem.pdb"
 )
 

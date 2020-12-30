@@ -145,6 +145,33 @@ studyNotes/fast:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/build
 .PHONY : studyNotes/fast
 
+classTempProj/main.o: classTempProj/main.cpp.o
+
+.PHONY : classTempProj/main.o
+
+# target to build an object file
+classTempProj/main.cpp.o:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/classTempProj/main.cpp.o
+.PHONY : classTempProj/main.cpp.o
+
+classTempProj/main.i: classTempProj/main.cpp.i
+
+.PHONY : classTempProj/main.i
+
+# target to preprocess a source file
+classTempProj/main.cpp.i:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/classTempProj/main.cpp.i
+.PHONY : classTempProj/main.cpp.i
+
+classTempProj/main.s: classTempProj/main.cpp.s
+
+.PHONY : classTempProj/main.s
+
+# target to generate assembly for a file
+classTempProj/main.cpp.s:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/classTempProj/main.cpp.s
+.PHONY : classTempProj/main.cpp.s
+
 courseProject/funcTemplate.o: courseProject/funcTemplate.cpp.o
 
 .PHONY : courseProject/funcTemplate.o
@@ -172,33 +199,6 @@ courseProject/funcTemplate.cpp.s:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/courseProject/funcTemplate.cpp.s
 .PHONY : courseProject/funcTemplate.cpp.s
 
-courseProject/test.o: courseProject/test.cpp.o
-
-.PHONY : courseProject/test.o
-
-# target to build an object file
-courseProject/test.cpp.o:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/courseProject/test.cpp.o
-.PHONY : courseProject/test.cpp.o
-
-courseProject/test.i: courseProject/test.cpp.i
-
-.PHONY : courseProject/test.i
-
-# target to preprocess a source file
-courseProject/test.cpp.i:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/courseProject/test.cpp.i
-.PHONY : courseProject/test.cpp.i
-
-courseProject/test.s: courseProject/test.cpp.s
-
-.PHONY : courseProject/test.s
-
-# target to generate assembly for a file
-courseProject/test.cpp.s:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/courseProject/test.cpp.s
-.PHONY : courseProject/test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,12 +208,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... studyNotes"
+	@echo "... classTempProj/main.o"
+	@echo "... classTempProj/main.i"
+	@echo "... classTempProj/main.s"
 	@echo "... courseProject/funcTemplate.o"
 	@echo "... courseProject/funcTemplate.i"
 	@echo "... courseProject/funcTemplate.s"
-	@echo "... courseProject/test.o"
-	@echo "... courseProject/test.i"
-	@echo "... courseProject/test.s"
 .PHONY : help
 
 

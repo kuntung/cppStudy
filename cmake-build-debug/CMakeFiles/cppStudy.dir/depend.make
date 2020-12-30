@@ -3,5 +3,3 @@
 
 CMakeFiles/cppStudy.dir/main.cpp.o: ../main.cpp
 
-CMakeFiles/cppStudy.dir/studyNotes/courseProject/main.cpp.o: ../studyNotes/courseProject/main.cpp
-

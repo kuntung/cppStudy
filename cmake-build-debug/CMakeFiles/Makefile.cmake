@@ -15,6 +15,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cppProject/CMakeLists.txt"
   "../staffGovSystem/CMakeLists.txt"
   "../studyNotes/CMakeLists.txt"
+  "../studyNotes/classTempProj/CMakeLists.txt"
+  "../studyNotes/courseTutorial/CMakeLists.txt"
   "/snap/clion/137/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "/snap/clion/137/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
   "/snap/clion/137/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -52,6 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "cppProject/CMakeFiles/CMakeDirectoryInformation.cmake"
   "staffGovSystem/CMakeFiles/CMakeDirectoryInformation.cmake"
   "studyNotes/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "studyNotes/courseTutorial/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "studyNotes/classTempProj/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -59,4 +63,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cppStudy.dir/DependInfo.cmake"
   "staffGovSystem/CMakeFiles/staffGovSystem.dir/DependInfo.cmake"
   "studyNotes/CMakeFiles/studyNotes.dir/DependInfo.cmake"
+  "studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/DependInfo.cmake"
+  "studyNotes/classTempProj/CMakeFiles/classTempProj.dir/DependInfo.cmake"
   )

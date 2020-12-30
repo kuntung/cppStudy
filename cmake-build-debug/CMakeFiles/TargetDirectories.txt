@@ -11,3 +11,9 @@
 /home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/CMakeFiles/rebuild_cache.dir
 /home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/CMakeFiles/edit_cache.dir
 /home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/CMakeFiles/studyNotes.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/courseTutorial/CMakeFiles/edit_cache.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/courseTutorial/CMakeFiles/rebuild_cache.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/classTempProj/CMakeFiles/rebuild_cache.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/classTempProj/CMakeFiles/edit_cache.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/classTempProj/CMakeFiles/classTempProj.dir

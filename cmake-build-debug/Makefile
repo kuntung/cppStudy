@@ -169,6 +169,32 @@ studyNotes/fast:
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/build
 .PHONY : studyNotes/fast
 
+#=============================================================================
+# Target rules for targets named courseTutorial
+
+# Build rule for target.
+courseTutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 courseTutorial
+.PHONY : courseTutorial
+
+# fast build rule for target.
+courseTutorial/fast:
+	$(MAKE) $(MAKESILENT) -f studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/build.make studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/build
+.PHONY : courseTutorial/fast
+
+#=============================================================================
+# Target rules for targets named classTempProj
+
+# Build rule for target.
+classTempProj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 classTempProj
+.PHONY : classTempProj
+
+# fast build rule for target.
+classTempProj/fast:
+	$(MAKE) $(MAKESILENT) -f studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build.make studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build
+.PHONY : classTempProj/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,6 +230,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... classTempProj"
+	@echo "... courseTutorial"
 	@echo "... cppStudy"
 	@echo "... staffGovSystem"
 	@echo "... studyNotes"

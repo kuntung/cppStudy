@@ -5,7 +5,7 @@
 		<Option title="staffGovSystem"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\coreCPP\;CMake Files\cppProject\;CMake Files\staffGovSystem\;CMake Files\studyNotes\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\studyNotes\;CMake Files\studyNotes\classTempProj\;CMake Files\studyNotes\courseTutorial\;CMake Files\coreCPP\;CMake Files\cppProject\;CMake Files\staffGovSystem\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem"/>
@@ -102,6 +102,15 @@
 		<Unit filename="/home/tangkun/github/cppStudy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/studyNotes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\studyNotes\"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/studyNotes/classTempProj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\studyNotes\classTempProj\"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/studyNotes/courseTutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\studyNotes\courseTutorial\"/>
+		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/coreCPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\coreCPP\"/>
 		</Unit>
@@ -110,9 +119,6 @@
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\staffGovSystem\"/>
-		</Unit>
-		<Unit filename="/home/tangkun/github/cppStudy/studyNotes/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\studyNotes\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

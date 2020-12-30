@@ -157,18 +157,59 @@ staffGovSystem/clean: staffGovSystem/CMakeFiles/staffGovSystem.dir/clean
 
 # Recursive "all" directory target.
 studyNotes/all: studyNotes/CMakeFiles/studyNotes.dir/all
+studyNotes/all: studyNotes/courseTutorial/all
+studyNotes/all: studyNotes/classTempProj/all
 
 .PHONY : studyNotes/all
 
 # Recursive "preinstall" directory target.
-studyNotes/preinstall:
+studyNotes/preinstall: studyNotes/courseTutorial/preinstall
+studyNotes/preinstall: studyNotes/classTempProj/preinstall
 
 .PHONY : studyNotes/preinstall
 
 # Recursive "clean" directory target.
 studyNotes/clean: studyNotes/CMakeFiles/studyNotes.dir/clean
+studyNotes/clean: studyNotes/courseTutorial/clean
+studyNotes/clean: studyNotes/classTempProj/clean
 
 .PHONY : studyNotes/clean
+
+#=============================================================================
+# Directory level rules for directory studyNotes/classTempProj
+
+# Recursive "all" directory target.
+studyNotes/classTempProj/all: studyNotes/classTempProj/CMakeFiles/classTempProj.dir/all
+
+.PHONY : studyNotes/classTempProj/all
+
+# Recursive "preinstall" directory target.
+studyNotes/classTempProj/preinstall:
+
+.PHONY : studyNotes/classTempProj/preinstall
+
+# Recursive "clean" directory target.
+studyNotes/classTempProj/clean: studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean
+
+.PHONY : studyNotes/classTempProj/clean
+
+#=============================================================================
+# Directory level rules for directory studyNotes/courseTutorial
+
+# Recursive "all" directory target.
+studyNotes/courseTutorial/all: studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/all
+
+.PHONY : studyNotes/courseTutorial/all
+
+# Recursive "preinstall" directory target.
+studyNotes/courseTutorial/preinstall:
+
+.PHONY : studyNotes/courseTutorial/preinstall
+
+# Recursive "clean" directory target.
+studyNotes/courseTutorial/clean: studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/clean
+
+.PHONY : studyNotes/courseTutorial/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cppStudy.dir
@@ -177,7 +218,7 @@ studyNotes/clean: studyNotes/CMakeFiles/studyNotes.dir/clean
 CMakeFiles/cppStudy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppStudy.dir/build.make CMakeFiles/cppStudy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppStudy.dir/build.make CMakeFiles/cppStudy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cppStudy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target cppStudy"
 .PHONY : CMakeFiles/cppStudy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -204,7 +245,7 @@ CMakeFiles/cppStudy.dir/clean:
 staffGovSystem/CMakeFiles/staffGovSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target staffGovSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target staffGovSystem"
 .PHONY : staffGovSystem/CMakeFiles/staffGovSystem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +272,7 @@ staffGovSystem/CMakeFiles/staffGovSystem.dir/clean:
 studyNotes/CMakeFiles/studyNotes.dir/all:
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/depend
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target studyNotes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=15,16,17 "Built target studyNotes"
 .PHONY : studyNotes/CMakeFiles/studyNotes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -250,6 +291,60 @@ studyNotes: studyNotes/CMakeFiles/studyNotes.dir/rule
 studyNotes/CMakeFiles/studyNotes.dir/clean:
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/clean
 .PHONY : studyNotes/CMakeFiles/studyNotes.dir/clean
+
+#=============================================================================
+# Target rules for target studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir
+
+# All Build rule for target.
+studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/all:
+	$(MAKE) $(MAKESILENT) -f studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/build.make studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/depend
+	$(MAKE) $(MAKESILENT) -f studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/build.make studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target courseTutorial"
+.PHONY : studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/all
+
+# Build rule for subdir invocation for target.
+studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 0
+.PHONY : studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/rule
+
+# Convenience name for target.
+courseTutorial: studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/rule
+
+.PHONY : courseTutorial
+
+# clean rule for target.
+studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/clean:
+	$(MAKE) $(MAKESILENT) -f studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/build.make studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/clean
+.PHONY : studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/clean
+
+#=============================================================================
+# Target rules for target studyNotes/classTempProj/CMakeFiles/classTempProj.dir
+
+# All Build rule for target.
+studyNotes/classTempProj/CMakeFiles/classTempProj.dir/all:
+	$(MAKE) $(MAKESILENT) -f studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build.make studyNotes/classTempProj/CMakeFiles/classTempProj.dir/depend
+	$(MAKE) $(MAKESILENT) -f studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build.make studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target classTempProj"
+.PHONY : studyNotes/classTempProj/CMakeFiles/classTempProj.dir/all
+
+# Build rule for subdir invocation for target.
+studyNotes/classTempProj/CMakeFiles/classTempProj.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 studyNotes/classTempProj/CMakeFiles/classTempProj.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 0
+.PHONY : studyNotes/classTempProj/CMakeFiles/classTempProj.dir/rule
+
+# Convenience name for target.
+classTempProj: studyNotes/classTempProj/CMakeFiles/classTempProj.dir/rule
+
+.PHONY : classTempProj
+
+# clean rule for target.
+studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean:
+	$(MAKE) $(MAKESILENT) -f studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build.make studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean
+.PHONY : studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

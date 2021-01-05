@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tangkun/github/cppStudy/studyNotes/classTempProj/MyArray.hpp
+iostream
+-
+string
+-
+
+/home/tangkun/github/cppStudy/studyNotes/classTempProj/main.cpp
+MyArray.hpp
+/home/tangkun/github/cppStudy/studyNotes/classTempProj/MyArray.hpp
+iostream
+-
+string
+-
+

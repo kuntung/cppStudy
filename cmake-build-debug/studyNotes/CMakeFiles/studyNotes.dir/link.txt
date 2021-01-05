@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/studyNotes.dir/courseProject/funcTemplate.cpp.o CMakeFiles/studyNotes.dir/classTempProj/main.cpp.o  -o studyNotes 

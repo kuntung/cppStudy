@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tangkun/github/cppStudy/studyNotes/courseTutorial/person.cpp
+person.h
+/home/tangkun/github/cppStudy/studyNotes/courseTutorial/person.h
+
+/home/tangkun/github/cppStudy/studyNotes/courseTutorial/person.h
+iostream
+-
+string
+-
+

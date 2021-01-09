@@ -15,4 +15,9 @@
 在完成第一部分的小课题**通讯管理系统**后，进行了一些[相关总结](https://github.com/kuntung/cppStudy/tree/main/cppProject)
 
 # 实战部分
-在学习完**类的三大属性后**，完成了[基于多态的企业职工系统](https://github.com/kuntung/cppStudy/tree/main/staffGovSystem)
+在学习完**类的三大属性后**，完成了[基于多态的企业职工系统](https://github.com/kuntung/cppStudy/tree/main/cppProject/sourceProfile)
+
+# 提高部分
+将[STL的学习笔记](https://github.com/kuntung/cppStudy/tree/main/studyNotes/学习心得总结)
+做了一个整理
+

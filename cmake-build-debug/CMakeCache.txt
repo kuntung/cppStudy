@@ -239,6 +239,12 @@ courseTutorial_BINARY_DIR:STATIC=/home/tangkun/github/cppStudy/cmake-build-debug
 courseTutorial_SOURCE_DIR:STATIC=/home/tangkun/github/cppStudy/studyNotes/courseTutorial
 
 //Value Computed by CMake
+cppProject_BINARY_DIR:STATIC=/home/tangkun/github/cppStudy/cmake-build-debug/cppProject
+
+//Value Computed by CMake
+cppProject_SOURCE_DIR:STATIC=/home/tangkun/github/cppStudy/cppProject
+
+//Value Computed by CMake
 cppStudy_BINARY_DIR:STATIC=/home/tangkun/github/cppStudy/cmake-build-debug
 
 //Value Computed by CMake
@@ -255,6 +261,12 @@ studyNotes_BINARY_DIR:STATIC=/home/tangkun/github/cppStudy/cmake-build-debug/stu
 
 //Value Computed by CMake
 studyNotes_SOURCE_DIR:STATIC=/home/tangkun/github/cppStudy/studyNotes
+
+//Value Computed by CMake
+yanjiangbisai_BINARY_DIR:STATIC=/home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai
+
+//Value Computed by CMake
+yanjiangbisai_SOURCE_DIR:STATIC=/home/tangkun/github/cppStudy/yanjiangbisai
 
 
 ########################
@@ -369,7 +381,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../yanjiangbisai/header/Speaker.h
+iostream
+-
+
+../yanjiangbisai/header/speechManager.h
+iostream
+-
+vector
+-
+map
+-
+Speaker.h
+../yanjiangbisai/header/Speaker.h
+
+/home/tangkun/github/cppStudy/yanjiangbisai/source/speechManager.cpp
+header/speechManager.h
+/home/tangkun/github/cppStudy/yanjiangbisai/source/header/speechManager.h
+algorithm
+-
+random
+-
+

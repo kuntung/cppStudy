@@ -144,6 +144,19 @@ cppStudy/fast:
 .PHONY : cppStudy/fast
 
 #=============================================================================
+# Target rules for targets named cppProject
+
+# Build rule for target.
+cppProject: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cppProject
+.PHONY : cppProject
+
+# fast build rule for target.
+cppProject/fast:
+	$(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/build
+.PHONY : cppProject/fast
+
+#=============================================================================
 # Target rules for targets named staffGovSystem
 
 # Build rule for target.
@@ -195,6 +208,19 @@ classTempProj/fast:
 	$(MAKE) $(MAKESILENT) -f studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build.make studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build
 .PHONY : classTempProj/fast
 
+#=============================================================================
+# Target rules for targets named yanjiangbisai
+
+# Build rule for target.
+yanjiangbisai: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yanjiangbisai
+.PHONY : yanjiangbisai
+
+# fast build rule for target.
+yanjiangbisai/fast:
+	$(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build
+.PHONY : yanjiangbisai/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -232,9 +258,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... classTempProj"
 	@echo "... courseTutorial"
+	@echo "... cppProject"
 	@echo "... cppStudy"
 	@echo "... staffGovSystem"
 	@echo "... studyNotes"
+	@echo "... yanjiangbisai"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,16 +1,16 @@
 /*
-é€šè¿‡c++å®ç°ä¸€ä¸ªé€šè®¯å½•ç®¡ç†ç³»ç»Ÿï¼Œç³»ç»Ÿä¸­éœ€è¦å®ç°çš„åŠŸèƒ½å¦‚ä¸‹ï¼š
-1.æ·»åŠ è”ç³»äººï¼šå‘é€šè®¯å½•ä¸­æ·»åŠ æ–°äººï¼Œä¿¡æ¯åŒ…æ‹¬ï¼ˆå§“åã€æ€§åˆ«ã€å¹´é¾„ã€è”ç³»åœ°å€ã€å®¶åº­åœ°å€ï¼‰ï¼Œæœ€å¤šè®°å½•100äºº
-2.æ˜¾ç¤ºè”ç³»äººï¼šæ˜¾ç¤ºé€šè®¯å½•ä¸­æ‰€æœ‰è”ç³»äººä¿¡æ¯
-3.åˆ é™¤è”ç³»äººï¼šæŒ‰ç…§å§“åè¿›è¡Œåˆ é™¤æŒ‡å®šè”ç³»äºº
-4.ä¿®æ”¹è”ç³»äººï¼šæŒ‰ç…§å§“åé‡æ–°ä¿®æ”¹æŒ‡å®šè”ç³»äºº
-5.æ¸…ç©ºè”ç³»äººï¼šæ¸…ç©ºé€šè®¯å½•ä¸­æ‰€æœ‰ä¿¡æ¯
-6.æŸ¥æ‰¾è”ç³»äººï¼šæŒ‰ç…§å§“åæŸ¥çœ‹æŒ‡å®šè”ç³»äººä¿¡æ¯
-7.é€€å‡ºé€šè®¯å½•ï¼šé€€å‡ºå½“å‰ä½¿ç”¨çš„é€šè®¯å½•
+Í¨¹ıc++ÊµÏÖÒ»¸öÍ¨Ñ¶Â¼¹ÜÀíÏµÍ³£¬ÏµÍ³ÖĞĞèÒªÊµÏÖµÄ¹¦ÄÜÈçÏÂ£º
+1.Ìí¼ÓÁªÏµÈË£ºÏòÍ¨Ñ¶Â¼ÖĞÌí¼ÓĞÂÈË£¬ĞÅÏ¢°üÀ¨£¨ĞÕÃû¡¢ĞÔ±ğ¡¢ÄêÁä¡¢ÁªÏµµØÖ·¡¢¼ÒÍ¥µØÖ·£©£¬×î¶à¼ÇÂ¼100ÈË
+2.ÏÔÊ¾ÁªÏµÈË£ºÏÔÊ¾Í¨Ñ¶Â¼ÖĞËùÓĞÁªÏµÈËĞÅÏ¢
+3.É¾³ıÁªÏµÈË£º°´ÕÕĞÕÃû½øĞĞÉ¾³ıÖ¸¶¨ÁªÏµÈË
+4.ĞŞ¸ÄÁªÏµÈË£º°´ÕÕĞÕÃûÖØĞÂĞŞ¸ÄÖ¸¶¨ÁªÏµÈË
+5.Çå¿ÕÁªÏµÈË£ºÇå¿ÕÍ¨Ñ¶Â¼ÖĞËùÓĞĞÅÏ¢
+6.²éÕÒÁªÏµÈË£º°´ÕÕĞÕÃû²é¿´Ö¸¶¨ÁªÏµÈËĞÅÏ¢
+7.ÍË³öÍ¨Ñ¶Â¼£ºÍË³öµ±Ç°Ê¹ÓÃµÄÍ¨Ñ¶Â¼
 */
-/*æ€è·¯ï¼š
-å…ˆæ„å»ºä¸€ä¸ªå…³äºä¸ªä½“çš„ç»“æ„ä½“ï¼ŒåŒ…å«ä»¥ä¸Šä¿¡æ¯ã€‚è¿›è€Œï¼Œ æ„å»ºä¸€ç³»åˆ—å‡½æ•°ï¼Œä¼ å…¥å‚æ•°ä¸ºç»“æ„ä½“æ•°ç»„
-å†æ„å»ºä¸€ä¸ªåŒ…å«æˆå‘˜ç»“æ„ä½“çš„ç³»ç»Ÿç»“æ„ä½“ï¼Œå±æ€§åŒ…å«æˆå‘˜ç»“æ„ä½“ï¼Œä»¥åŠä¸€äº›æ“ä½œæ ‡å¿—FLAGç­‰
+/*Ë¼Â·£º
+ÏÈ¹¹½¨Ò»¸ö¹ØÓÚ¸öÌåµÄ½á¹¹Ìå£¬°üº¬ÒÔÉÏĞÅÏ¢¡£½ø¶ø£¬ ¹¹½¨Ò»ÏµÁĞº¯Êı£¬´«Èë²ÎÊıÎª½á¹¹ÌåÊı×é
+ÔÙ¹¹½¨Ò»¸ö°üº¬³ÉÔ±½á¹¹ÌåµÄÏµÍ³½á¹¹Ìå£¬ÊôĞÔ°üº¬³ÉÔ±½á¹¹Ìå£¬ÒÔ¼°Ò»Ğ©²Ù×÷±êÖ¾FLAGµÈ
 */
 
 #include<iostream>
@@ -19,8 +19,8 @@
 using namespace std;
 
 void addMember(struct System *memberSys);
-//å®šä¹‰è”ç³»äººç»“æ„ä½“
-//ç»“æ„ä½“åŒ…å«ï¼šå§“åï¼Œæ€§åˆ«ï¼Œå¹´é¾„ï¼Œç”µè¯ï¼Œè”ç³»åœ°å€ï¼Œå®¶åº­ä½å€
+//¶¨ÒåÁªÏµÈË½á¹¹Ìå
+//½á¹¹Ìå°üº¬£ºĞÕÃû£¬ĞÔ±ğ£¬ÄêÁä£¬µç»°£¬ÁªÏµµØÖ·£¬¼ÒÍ¥×¡Ö·
 struct Member
 {                       
     string memberName;
@@ -31,8 +31,8 @@ struct Member
     string memberHome;
 };
 
-//å®šä¹‰é€šè®¯å½•ç»“æ„ä½“
-//è¿™ä¸ªç»“æ„ä½“åŒ…å«å±æ€§æœ‰ï¼šä¸€äº›æ“ä½œæ‰§è¡Œæ ‡å¿—ã€æˆå‘˜ç»“æ„ä½“ï¼Œå½“å‰å°¾éƒ¨é•¿åº¦
+//¶¨ÒåÍ¨Ñ¶Â¼½á¹¹Ìå
+//Õâ¸ö½á¹¹Ìå°üº¬ÊôĞÔÓĞ£ºÒ»Ğ©²Ù×÷Ö´ĞĞ±êÖ¾¡¢³ÉÔ±½á¹¹Ìå£¬µ±Ç°Î²²¿³¤¶È
 struct System{
     char delFLAG;
     char newFLAG;
@@ -44,8 +44,8 @@ struct System{
 
 
 /*
-å®šä¹‰ä¸€ä¸ªåˆ¤æ–­ç›®æ ‡åå­—æ‰€åœ¨ä½ç½®ç¼–å·çš„å‡½æ•°ã€‚
-è¿”å›å€¼ä¸ºå½“å‰æŸ¥è¯¢åå­—çš„ç¼–å·ï¼Œå¦‚æœæŸ¥è¯¢ä¸ºç©ºï¼Œåˆ™è¿”å›-1ï¼Œ ä¼ å…¥å‚æ•°ä¸ºé€šè®¯å½•ï¼Œå¾…æŸ¥è¯¢çš„åå­—, åºåˆ—æœ€å¤§é•¿åº¦ã€‚
+¶¨ÒåÒ»¸öÅĞ¶ÏÄ¿±êÃû×ÖËùÔÚÎ»ÖÃ±àºÅµÄº¯Êı¡£
+·µ»ØÖµÎªµ±Ç°²éÑ¯Ãû×ÖµÄ±àºÅ£¬Èç¹û²éÑ¯Îª¿Õ£¬Ôò·µ»Ø-1£¬ ´«Èë²ÎÊıÎªÍ¨Ñ¶Â¼£¬´ı²éÑ¯µÄÃû×Ö, ĞòÁĞ×î´ó³¤¶È¡£
 */
 int findMember(struct System *memberSys, string memberName){
     for(int i = 0; i < memberSys->index; i++){
@@ -53,61 +53,61 @@ int findMember(struct System *memberSys, string memberName){
             return i;
         }
     }
-	return -1; //forå¾ªç¯ç»“æŸè¿˜æ²¡æœ‰æ‰¾åˆ°ï¼Œè¯æ˜æ²¡æœ‰è¿™ä¸ªäºº    
+	return -1; //forÑ­»·½áÊø»¹Ã»ÓĞÕÒµ½£¬Ö¤Ã÷Ã»ÓĞÕâ¸öÈË    
 }
 
 //showName
 void showAllName(struct System *memberSys){
     if(0 == memberSys->index){
-        cout<<"å½“å‰é€šè®¯å½•ä¸ºç©ºï¼"<<endl;
+        cout<<"µ±Ç°Í¨Ñ¶Â¼Îª¿Õ£¡"<<endl;
     }
     else{
-        cout<<"å½“å‰é€šè®¯å½•æœ‰å¦‚ä¸‹æˆå‘˜ï¼š"<<endl;
+        cout<<"µ±Ç°Í¨Ñ¶Â¼ÓĞÈçÏÂ³ÉÔ±£º"<<endl;
         for(int i = 0; i< memberSys->index; i++){
-            cout<<"ç¬¬"<<i+1<<"ä¸ªè”ç³»äººçš„";
-            cout<<"å§“åï¼š"<<memberSys->memberInfo[i].memberName<<endl;
+            cout<<"µÚ"<<i+1<<"¸öÁªÏµÈËµÄ";
+            cout<<"ĞÕÃû£º"<<memberSys->memberInfo[i].memberName<<endl;
         }
     }
 }
 
-//å®ç°è”ç³»äººåˆ é™¤
-//1. éœ€è¦ä¼ å…¥éœ€è¦åˆ é™¤äººå‘˜çš„å§“åï¼Œç°æœ‰é€šè®¯å½•
-//2. å®Œæˆå¯¹ç›®æ ‡äººå‘˜çš„æ£€ç´¢ï¼Œå¦‚æœæ£€ç´¢æˆåŠŸåˆ™åˆ é™¤ï¼Œå¹¶ä¸”æŠŠåé¢çš„é˜Ÿåˆ—å¾€å‰ç§»åŠ¨ã€‚(æˆ–è€…ï¼Œè®°å½•ä¸‹æ¥ç©ºæ ¼ï¼Œæ–°å»ºçš„æ—¶å€™ä¼˜å…ˆä½¿ç”¨ç©ºæ ¼)
-//3. å¦‚æœæ£€ç´¢å¤±è´¥ï¼Œæ˜¾ç¤ºæ— æ­¤è”ç³»äººï¼Œå¹¶åœ¨æœ‰å®¹é‡å‰©ä½™çš„æ—¶å€™ï¼Œæç¤ºæ˜¯å¦æ–°å»ºæ­¤è”ç³»äºº
+//ÊµÏÖÁªÏµÈËÉ¾³ı
+//1. ĞèÒª´«ÈëĞèÒªÉ¾³ıÈËÔ±µÄĞÕÃû£¬ÏÖÓĞÍ¨Ñ¶Â¼
+//2. Íê³É¶ÔÄ¿±êÈËÔ±µÄ¼ìË÷£¬Èç¹û¼ìË÷³É¹¦ÔòÉ¾³ı£¬²¢ÇÒ°ÑºóÃæµÄ¶ÓÁĞÍùÇ°ÒÆ¶¯¡£(»òÕß£¬¼ÇÂ¼ÏÂÀ´¿Õ¸ñ£¬ĞÂ½¨µÄÊ±ºòÓÅÏÈÊ¹ÓÃ¿Õ¸ñ)
+//3. Èç¹û¼ìË÷Ê§°Ü£¬ÏÔÊ¾ÎŞ´ËÁªÏµÈË£¬²¢ÔÚÓĞÈİÁ¿Ê£ÓàµÄÊ±ºò£¬ÌáÊ¾ÊÇ·ñĞÂ½¨´ËÁªÏµÈË
 void delMember(struct System *memberSys, string memberName){
     int location = findMember(memberSys, memberName);    
     if(-1 == location){
-    cout<<"æ²¡æœ‰è¿™ä¸ªäºº!"<<endl;
+    cout<<"Ã»ÓĞÕâ¸öÈË!"<<endl;
         }
     else{
-        cout<<"ç¡®è®¤åˆ é™¤(Y/N)"<<endl;
+        cout<<"È·ÈÏÉ¾³ı(Y/N)"<<endl;
         cin>>memberSys->delFLAG;
         if('Y' == memberSys->delFLAG || 'y' == memberSys->delFLAG){
-            memberSys->memberInfo[location] = memberSys->memberInfo[memberSys->index-1];//å°†æœ€åä¸€ä½è”ç³»äººæŒªæ¥è¡¥å……ç©ºç¼º
+            memberSys->memberInfo[location] = memberSys->memberInfo[memberSys->index-1];//½«×îºóÒ»Î»ÁªÏµÈËÅ²À´²¹³ä¿ÕÈ±
             memberSys->index--;
-            cout<<"æˆåŠŸåˆ é™¤å…³äº"<<memberName<<"ç›¸å…³ä¿¡æ¯!"<<endl;
+            cout<<"³É¹¦É¾³ı¹ØÓÚ"<<memberName<<"Ïà¹ØĞÅÏ¢!"<<endl;
     }
        
     }
 
 }
 void modMember(struct System *memberSys, string memberName);//pre-definition
-//å®ç°è”ç³»äººæŸ¥æ‰¾
-//éœ€è¦ä¼ å…¥çš„å‚æ•°ï¼Œå¾…åˆ é™¤äººå‘˜çš„å§“åï¼Œé€šè®¯å½•
-//è®¾ç½®åˆ é™¤é€‰é¡¹,å¹¶å°†åˆ é™¤é€‰æ‹©æ ‡å¿—ä¼ å›
+//ÊµÏÖÁªÏµÈË²éÕÒ
+//ĞèÒª´«ÈëµÄ²ÎÊı£¬´ıÉ¾³ıÈËÔ±µÄĞÕÃû£¬Í¨Ñ¶Â¼
+//ÉèÖÃÉ¾³ıÑ¡Ïî,²¢½«É¾³ıÑ¡Ôñ±êÖ¾´«»Ø
 void showMember(struct System *memberSys, string memberName){
     int location = findMember(memberSys, memberName);    
     if(-1 == location){
-    cout<<"æ²¡æœ‰è¿™ä¸ªäººï¼Œä¸éœ€è¦æ‰§è¡Œåˆ é™¤æ“ä½œï¼"<<endl;
+    cout<<"Ã»ÓĞÕâ¸öÈË£¬²»ĞèÒªÖ´ĞĞÉ¾³ı²Ù×÷£¡"<<endl;
         }
 	else{
-		cout<<"å§“åï¼š"<<memberSys->memberInfo[location].memberName<<endl;
-		cout<<"æ€§åˆ«ï¼š"<<memberSys->memberInfo[location].memberGender<<endl;
-		cout<<"å¹´é¾„ï¼š"<<memberSys->memberInfo[location].memberAge<<endl;
-        cout<<"ç”µè¯ï¼š"<<memberSys->memberInfo[location].memberPhone<<endl;
-        cout<<"è”ç³»åœ°å€ï¼š"<<memberSys->memberInfo[location].memberAddress<<endl;
-		cout<<"å®¶åº­ä½å€ï¼š"<<memberSys->memberInfo[location].memberHome<<endl;
-		cout<<"å¯æ‰§è¡Œæ“ä½œï¼šä¿®æ”¹è”ç³»äºº(M)/åˆ é™¤è”ç³»äºº(D)"<<endl;
+		cout<<"ĞÕÃû£º"<<memberSys->memberInfo[location].memberName<<endl;
+		cout<<"ĞÔ±ğ£º"<<memberSys->memberInfo[location].memberGender<<endl;
+		cout<<"ÄêÁä£º"<<memberSys->memberInfo[location].memberAge<<endl;
+        cout<<"µç»°£º"<<memberSys->memberInfo[location].memberPhone<<endl;
+        cout<<"ÁªÏµµØÖ·£º"<<memberSys->memberInfo[location].memberAddress<<endl;
+		cout<<"¼ÒÍ¥×¡Ö·£º"<<memberSys->memberInfo[location].memberHome<<endl;
+		cout<<"¿ÉÖ´ĞĞ²Ù×÷£ºĞŞ¸ÄÁªÏµÈË(M)/É¾³ıÁªÏµÈË(D)"<<endl;
     	cin>>memberSys->delFLAG;
         if('D' == memberSys->delFLAG || 'd' == memberSys->delFLAG){
             delMember(memberSys, memberName);
@@ -123,22 +123,22 @@ void showMember(struct System *memberSys, string memberName){
 void showAddMember(struct System *memberSys, string memberName){
     int location = findMember(memberSys, memberName);    
     if(-1 == location){
-    cout<<"æ²¡æœ‰è¿™ä¸ªäººï¼"<<endl;
+    cout<<"Ã»ÓĞÕâ¸öÈË£¡"<<endl;
         }
 	else{
-		cout<<"å§“åï¼š"<<memberSys->memberInfo[location].memberName<<endl;
-		cout<<"æ€§åˆ«ï¼š"<<memberSys->memberInfo[location].memberGender<<endl;
-		cout<<"å¹´é¾„ï¼š"<<memberSys->memberInfo[location].memberAge<<endl;
-        cout<<"ç”µè¯ï¼š"<<memberSys->memberInfo[location].memberPhone<<endl;
-        cout<<"è”ç³»åœ°å€ï¼š"<<memberSys->memberInfo[location].memberAddress<<endl;
-		cout<<"å®¶åº­ä½å€ï¼š"<<memberSys->memberInfo[location].memberHome<<endl;
+		cout<<"ĞÕÃû£º"<<memberSys->memberInfo[location].memberName<<endl;
+		cout<<"ĞÔ±ğ£º"<<memberSys->memberInfo[location].memberGender<<endl;
+		cout<<"ÄêÁä£º"<<memberSys->memberInfo[location].memberAge<<endl;
+        cout<<"µç»°£º"<<memberSys->memberInfo[location].memberPhone<<endl;
+        cout<<"ÁªÏµµØÖ·£º"<<memberSys->memberInfo[location].memberAddress<<endl;
+		cout<<"¼ÒÍ¥×¡Ö·£º"<<memberSys->memberInfo[location].memberHome<<endl;
 	}
     
 }
 
 
-//ä¿®æ”¹è”ç³»äºº
-//æ ¹æ®åå­—ç´¢å¼•ï¼Œå¹¶ä¸”ä¼ å…¥æ–°çš„å±æ€§å€¼è¿›è¡Œæ›¿æ¢
+//ĞŞ¸ÄÁªÏµÈË
+//¸ù¾İÃû×ÖË÷Òı£¬²¢ÇÒ´«ÈëĞÂµÄÊôĞÔÖµ½øĞĞÌæ»»
 void modMember(struct System *memberSys, string memberName){
     int location = findMember(memberSys, memberName); 
     struct Member newMemberInfo;
@@ -146,38 +146,38 @@ void modMember(struct System *memberSys, string memberName){
     char sureFLAG = 'N';
     
     if(-1 == location){
-    cout<<"æ²¡æœ‰è¿™ä¸ªäººï¼Œä¸èƒ½æ‰§è¡Œä¿®æ”¹æ“ä½œï¼æ˜¯å¦æ–°å»ºè”ç³»äººï¼Ÿ"<<endl;
+    cout<<"Ã»ÓĞÕâ¸öÈË£¬²»ÄÜÖ´ĞĞĞŞ¸Ä²Ù×÷£¡ÊÇ·ñĞÂ½¨ÁªÏµÈË£¿"<<endl;
                        cin>>memberSys->newFLAG;
-                       if('Y' == memberSys->newFLAG || 'Y' == memberSys->newFLAG){
+                       if('Y' == memberSys->newFLAG){
                             addMember(memberSys);
 					   }                     
         }
     else{
-        cout<<"å½“å‰ç›¸å…³è”ç³»äººä¿¡æ¯ä¸º:"<<endl;
+        cout<<"µ±Ç°Ïà¹ØÁªÏµÈËĞÅÏ¢Îª:"<<endl;
         showAddMember(memberSys, memberName);
-        cout<<"æ˜¯å¦ä¿®æ”¹ï¼Ÿ(Y/N)"<<endl;
+        cout<<"ÊÇ·ñĞŞ¸Ä£¿(Y/N)"<<endl;
         cin>>sureFLAG;
         if('Y' == sureFLAG || 'y' == sureFLAG){
-            cout<<"è¯·è¾“å…¥æ›´æ–°ä¿¡æ¯"<<endl;
-            cout<<"å§“å:";
+            cout<<"ÇëÊäÈë¸üĞÂĞÅÏ¢"<<endl;
+            cout<<"ĞÕÃû:";
             cin>>newMemberInfo.memberName;
-            cout<<"æ€§åˆ«:";
+            cout<<"ĞÔ±ğ:";
             cin>>newMemberInfo.memberGender;
-            cout<<"å¹´é¾„:";
+            cout<<"ÄêÁä:";
             cin>>newMemberInfo.memberAge;
-            cout<<"ç”µè¯:";
+            cout<<"µç»°:";
             cin>>newMemberInfo.memberPhone;
-            cout<<"è”ç³»åœ°å€:";
+            cout<<"ÁªÏµµØÖ·:";
             cin>>newMemberInfo.memberAddress;
-            cout<<"å®¶åº­ä½å€:";
+            cout<<"¼ÒÍ¥×¡Ö·:";
             cin>>newMemberInfo.memberHome;
             memberSys->memberInfo[location] = newMemberInfo;
-            cout<<"æ›´æ–°åç›¸å…³è”ç³»äººä¿¡æ¯ä¸º:"<<endl;
+            cout<<"¸üĞÂºóÏà¹ØÁªÏµÈËĞÅÏ¢Îª:"<<endl;
             showAddMember(memberSys, newMemberInfo.memberName);
         }
         else{
 
-            cout<<"æ”¾å¼ƒä¿®æ”¹ã€‚"<<endl;//ä¸ä¿®æ”¹å°±æ‰§è¡Œç©ºè¯­å¥
+            cout<<"·ÅÆúĞŞ¸Ä¡£"<<endl;//²»ĞŞ¸Ä¾ÍÖ´ĞĞ¿ÕÓï¾ä
         }
 
     }
@@ -185,55 +185,55 @@ void modMember(struct System *memberSys, string memberName){
 
 void showAllMember(struct System *memberSys){
     if(0 == memberSys->index){
-        cout<<"å½“å‰é€šè®¯å½•ä¸ºç©ºï¼"<<endl;
+        cout<<"µ±Ç°Í¨Ñ¶Â¼Îª¿Õ£¡"<<endl;
     }
     else{
         for(int i = 0; i< memberSys->index; i++){
-            cout<<"ç¬¬"<<i+1<<"ä¸ªè”ç³»äººçš„ä¿¡æ¯ä¸º:"<<endl;
-            cout<<"å§“åï¼š"<<memberSys->memberInfo[i].memberName<<endl;
-            cout<<"æ€§åˆ«ï¼š"<<memberSys->memberInfo[i].memberGender<<endl;
-            cout<<"å¹´é¾„ï¼š"<<memberSys->memberInfo[i].memberAge<<endl;
-            cout<<"ç”µè¯ï¼š"<<memberSys->memberInfo[i].memberPhone<<endl;
-            cout<<"è”ç³»åœ°å€ï¼š"<<memberSys->memberInfo[i].memberAddress<<endl;
-            cout<<"å®¶åº­ä½å€ï¼š"<<memberSys->memberInfo[i].memberHome<<endl;
+            cout<<"µÚ"<<i+1<<"¸öÁªÏµÈËµÄĞÅÏ¢Îª:"<<endl;
+            cout<<"ĞÕÃû£º"<<memberSys->memberInfo[i].memberName<<endl;
+            cout<<"ĞÔ±ğ£º"<<memberSys->memberInfo[i].memberGender<<endl;
+            cout<<"ÄêÁä£º"<<memberSys->memberInfo[i].memberAge<<endl;
+            cout<<"µç»°£º"<<memberSys->memberInfo[i].memberPhone<<endl;
+            cout<<"ÁªÏµµØÖ·£º"<<memberSys->memberInfo[i].memberAddress<<endl;
+            cout<<"¼ÒÍ¥×¡Ö·£º"<<memberSys->memberInfo[i].memberHome<<endl;
         }
     }
 }
 
 
-//å®ç°è”ç³»äººæ·»åŠ 
-//ä¼ å…¥å‚æ•°ä¸º: å½“å‰é€šè®¯å½•ï¼Œ å½“å‰é˜Ÿåˆ—çš„æœ«å°¾ï¼Œ åˆ é™¤çš„ç©ºç¼ºåºåˆ—
-//å¦‚æœè”ç³»äººå®¹é‡å·²æ»¡ï¼Œåˆ™æ˜¾ç¤ºæ— æ³•æ·»åŠ 
-//åœ¨æ·»åŠ å®Œè”ç³»äººåï¼Œæ˜¾ç¤ºç›®æ ‡è”ç³»äººï¼Œä»¥ä¾¿ç”¨äºæ ¸å¯¹
+//ÊµÏÖÁªÏµÈËÌí¼Ó
+//´«Èë²ÎÊıÎª: µ±Ç°Í¨Ñ¶Â¼£¬ µ±Ç°¶ÓÁĞµÄÄ©Î²£¬ É¾³ıµÄ¿ÕÈ±ĞòÁĞ
+//Èç¹ûÁªÏµÈËÈİÁ¿ÒÑÂú£¬ÔòÏÔÊ¾ÎŞ·¨Ìí¼Ó
+//ÔÚÌí¼ÓÍêÁªÏµÈËºó£¬ÏÔÊ¾Ä¿±êÁªÏµÈË£¬ÒÔ±ãÓÃÓÚºË¶Ô
 void addMember(struct System *memberSys){
 	if(99 <= memberSys->index){
-	    cout<<"è¶…å‡ºæœ€å¤§è®°å½•æ•°,æ— æ³•æ‰§è¡Œæ–°å»ºæ“ä½œ!"<<endl;
+	    cout<<"³¬³ö×î´ó¼ÇÂ¼Êı,ÎŞ·¨Ö´ĞĞĞÂ½¨²Ù×÷!"<<endl;
 	}
 	else{
 	    struct Member newMemberInfo;
 		char retryFLAG = 'R';
 		while('R' == retryFLAG || 'r' == retryFLAG){
             cout<<memberSys->index<<endl;
-			cout<<"è¯·è¾“å…¥éœ€è¦æ·»åŠ çš„äººå‘˜çš„ä¿¡æ¯:"<<endl;
-			cout<<"å§“å:"<<endl;
+			cout<<"ÇëÊäÈëĞèÒªÌí¼ÓµÄÈËÔ±µÄĞÅÏ¢:"<<endl;
+			cout<<"ĞÕÃû:"<<endl;
 			cin>>newMemberInfo.memberName;
-			cout<<"æ€§åˆ«:"<<endl;
+			cout<<"ĞÔ±ğ:"<<endl;
 			cin>>newMemberInfo.memberGender;
-			cout<<"å¹´é¾„:"<<endl;
+			cout<<"ÄêÁä:"<<endl;
 			cin>>newMemberInfo.memberAge;
-			cout<<"ç”µè¯:"<<endl;
+			cout<<"µç»°:"<<endl;
 			cin>>newMemberInfo.memberPhone;
-			cout<<"è”ç³»åœ°å€:"<<endl;
+			cout<<"ÁªÏµµØÖ·:"<<endl;
 			cin>>newMemberInfo.memberAddress;
-			cout<<"å®¶åº­ä½å€:"<<endl;
+			cout<<"¼ÒÍ¥×¡Ö·:"<<endl;
 			cin>>newMemberInfo.memberHome;
 			memberSys->memberInfo[memberSys->index] = newMemberInfo;
             memberSys->index++;
             cout<<memberSys->index;
 			cout<<"afterAdding"<<memberSys->index<<endl;
-            cout<<"æ‚¨æ·»åŠ çš„è”ç³»äººä¿¡æ¯ä¸º:"<<endl;
+            cout<<"ÄúÌí¼ÓµÄÁªÏµÈËĞÅÏ¢Îª:"<<endl;
 			showAddMember(memberSys, newMemberInfo.memberName);
-            cout<<"å¦‚æœæƒ³è¦é‡æ–°æ·»åŠ è¯·è¾“å…¥:R ç»“æŸè¯·è¾“å…¥Nã€‚"<<endl;
+            cout<<"Èç¹ûÏëÒªÖØĞÂÌí¼ÓÇëÊäÈë:R ½áÊøÇëÊäÈëN¡£"<<endl;
             cin>>retryFLAG;
             if('R' == retryFLAG || 'r' == retryFLAG){
                 memberSys->index--;
@@ -250,24 +250,24 @@ void addMember(struct System *memberSys){
 
 
 
-//æ¸…ç©ºè”ç³»äºº
-//æ‰§è¡Œé€»è¾‘æ¸…é›¶æ“ä½œ
+//Çå¿ÕÁªÏµÈË
+//Ö´ĞĞÂß¼­ÇåÁã²Ù×÷
 void clearMember(struct System *memberSys){
-    cout<<"æ˜¯å¦è¦æ¸…ç©ºæ‰€æœ‰è”ç³»äººï¼Ÿ(Y/N)"<<endl;
+    cout<<"ÊÇ·ñÒªÇå¿ÕËùÓĞÁªÏµÈË£¿(Y/N)"<<endl;
     cin>>memberSys->clearFLAG;
     if('Y' == memberSys->clearFLAG || 'y' == memberSys->clearFLAG){
         memberSys->index = 0;
-        cout<<"æˆåŠŸæ¸…é›¶"<<endl;
+        cout<<"³É¹¦ÇåÁã"<<endl;
     }
 }
 
 int main(){
 
-//åˆå§‹åŒ–å‚æ•°
-	struct Member initialMember[4] = {{"å”æ˜†", "ç”·", 24, "17772323526", "å››å·æˆéƒ½", "å››å·å¹¿å®‰"},
-                                  {"å°é±¼", "å¥³", 24, "17711342362", "å››å·æˆéƒ½", "å››å·å¹¿å®‰"},
-                                  {"åˆ˜è¶…", "ç”·", 24, "18883778804", "å››å·æˆéƒ½", "å››å·å¹¿å®‰"},
-                                  {"é»„æ´‹", "ç”·", 23, "18626060554", "å››å·æˆéƒ½", "å››å·è‡ªè´¡"}
+//³õÊ¼»¯²ÎÊı
+	struct Member initialMember[4] = {{"ÌÆÀ¥", "ÄĞ", 24, "17772323526", "ËÄ´¨³É¶¼", "ËÄ´¨¹ã°²"},
+                                  {"Ğ¡Óã", "Å®", 24, "17711342362", "ËÄ´¨³É¶¼", "ËÄ´¨¹ã°²"},
+                                  {"Áõ³¬", "ÄĞ", 24, "18883778804", "ËÄ´¨³É¶¼", "ËÄ´¨¹ã°²"},
+                                  {"»ÆÑó", "ÄĞ", 23, "18626060554", "ËÄ´¨³É¶¼", "ËÄ´¨×Ô¹±"}
                                  };
     int initialSize = sizeof(initialMember)/sizeof(initialMember[0]);
     struct Member memberInfo[100];
@@ -283,20 +283,20 @@ int main(){
 
 //DEBUG CODE
 
-    cout<<"æ˜¯å¦æŸ¥çœ‹å½“å‰é€šè®¯å½•?(Y/N)"<<endl;
+    cout<<"ÊÇ·ñ²é¿´µ±Ç°Í¨Ñ¶Â¼?(Y/N)"<<endl;
     cin>>memberSys->activeFLAG;
         while('Y' == memberSys->activeFLAG || 'y' == memberSys->activeFLAG){
             char actionFLAG;//define a temp flag, which does not involved in cases of 'switch'
             string caozuoMemberName;
             showAllName(memberSys);
-            cout<<"æ‚¨æƒ³æ‰§è¡Œä¸‹é¢çš„ä»€ä¹ˆæ“ä½œï¼Ÿ"<<endl;
-            cout<<"1.æ·»åŠ è”ç³»äºº(A)"<<endl;
-            cout<<"2.æ˜¾ç¤ºè”ç³»äºº(S)"<<endl;
-            cout<<"3.åˆ é™¤è”ç³»äºº(D)"<<endl;
-            cout<<"4.ä¿®æ”¹è”ç³»äºº(M)"<<endl;
-            cout<<"5.æ¸…ç©ºè”ç³»äºº(C)"<<endl;
-            cout<<"6.æŸ¥æ‰¾è”ç³»äºº(F)"<<endl;
-            cout<<"7.é€€å‡ºé€šè®¯å½•(Q)"<<endl;
+            cout<<"ÄúÏëÖ´ĞĞÏÂÃæµÄÊ²Ã´²Ù×÷£¿"<<endl;
+            cout<<"1.Ìí¼ÓÁªÏµÈË(A)"<<endl;
+            cout<<"2.ÏÔÊ¾ÁªÏµÈË(S)"<<endl;
+            cout<<"3.É¾³ıÁªÏµÈË(D)"<<endl;
+            cout<<"4.ĞŞ¸ÄÁªÏµÈË(M)"<<endl;
+            cout<<"5.Çå¿ÕÁªÏµÈË(C)"<<endl;
+            cout<<"6.²éÕÒÁªÏµÈË(F)"<<endl;
+            cout<<"7.ÍË³öÍ¨Ñ¶Â¼(Q)"<<endl;
             cin>>actionFLAG;
             switch((int)actionFLAG){
 				case (int)'A':{
@@ -308,32 +308,32 @@ int main(){
                     break;
             }
                 case (int)'D':{
-                    cout<<"è¯·è¾“å…¥è¦è¿›è¡Œdeleteæ“ä½œçš„äººåå­—ï¼š"<<endl;
+                    cout<<"ÇëÊäÈëÒª½øĞĞdelete²Ù×÷µÄÈËÃû×Ö£º"<<endl;
                     cin>>caozuoMemberName;
                     delMember(memberSys, caozuoMemberName);
                     break;
             }
                 case (int)'M':{
-                    cout<<"è¯·è¾“å…¥è¦è¿›è¡Œæ“ä½œçš„äººåå­—ï¼š"<<endl;
+                    cout<<"ÇëÊäÈëÒª½øĞĞ²Ù×÷µÄÈËÃû×Ö£º"<<endl;
                     cin>>caozuoMemberName; 
                     modMember(memberSys, caozuoMemberName);
                     break;
             }
 				case (int)'C':{
-					cout<<"ç¡®å®šè¦æ‰§è¡Œæ¸…ç©ºæ“ä½œï¼Ÿ(Y/N)"<<endl;
+					cout<<"È·¶¨ÒªÖ´ĞĞÇå¿Õ²Ù×÷£¿(Y/N)"<<endl;
                     cin>>memberSys->clearFLAG;
                     if('Y' == memberSys->clearFLAG){
 						clearMember(memberSys);
 					}
 					break;}
 				case (int)'F':{
-					cout<<"æ‚¨æƒ³æŸ¥è¯¢è°çš„ä¿¡æ¯ï¼Ÿ"<<endl;
+					cout<<"ÄúÏë²éÑ¯Ë­µÄĞÅÏ¢£¿"<<endl;
                     cin>>caozuoMemberName;
                     showMember(memberSys, caozuoMemberName);
                     break;}
 				case (int)'Q':{
 					char quitFLAG = 'N';	
-					cout<<"ç¡®å®šé€€å‡ºé€šè®¯å½•?(Y/N)"<<endl;
+					cout<<"È·¶¨ÍË³öÍ¨Ñ¶Â¼?(Y/N)"<<endl;
                     cin>>quitFLAG;
 					if('Y' == quitFLAG){
 						memberSys->activeFLAG = 'N';

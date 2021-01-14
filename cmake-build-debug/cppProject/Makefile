@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /home/tangkun/github/cppStudy/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,6 +130,48 @@ depend:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+cppProject/CMakeFiles/cppProject.dir/rule:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cppProject/CMakeFiles/cppProject.dir/rule
+.PHONY : cppProject/CMakeFiles/cppProject.dir/rule
+
+# Convenience name for target.
+cppProject: cppProject/CMakeFiles/cppProject.dir/rule
+
+.PHONY : cppProject
+
+# fast build rule for target.
+cppProject/fast:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/build
+.PHONY : cppProject/fast
+
+sourceProfile/txlGoveringSys.o: sourceProfile/txlGoveringSys.cpp.o
+
+.PHONY : sourceProfile/txlGoveringSys.o
+
+# target to build an object file
+sourceProfile/txlGoveringSys.cpp.o:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/sourceProfile/txlGoveringSys.cpp.o
+.PHONY : sourceProfile/txlGoveringSys.cpp.o
+
+sourceProfile/txlGoveringSys.i: sourceProfile/txlGoveringSys.cpp.i
+
+.PHONY : sourceProfile/txlGoveringSys.i
+
+# target to preprocess a source file
+sourceProfile/txlGoveringSys.cpp.i:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/sourceProfile/txlGoveringSys.cpp.i
+.PHONY : sourceProfile/txlGoveringSys.cpp.i
+
+sourceProfile/txlGoveringSys.s: sourceProfile/txlGoveringSys.cpp.s
+
+.PHONY : sourceProfile/txlGoveringSys.s
+
+# target to generate assembly for a file
+sourceProfile/txlGoveringSys.cpp.s:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/sourceProfile/txlGoveringSys.cpp.s
+.PHONY : sourceProfile/txlGoveringSys.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +180,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cppProject"
+	@echo "... sourceProfile/txlGoveringSys.o"
+	@echo "... sourceProfile/txlGoveringSys.i"
+	@echo "... sourceProfile/txlGoveringSys.s"
 .PHONY : help
 
 

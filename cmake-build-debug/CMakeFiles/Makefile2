@@ -78,6 +78,7 @@ all: coreCPP/all
 all: cppProject/all
 all: staffGovSystem/all
 all: studyNotes/all
+all: yanjiangbisai/all
 
 .PHONY : all
 
@@ -86,6 +87,7 @@ preinstall: coreCPP/preinstall
 preinstall: cppProject/preinstall
 preinstall: staffGovSystem/preinstall
 preinstall: studyNotes/preinstall
+preinstall: yanjiangbisai/preinstall
 
 .PHONY : preinstall
 
@@ -95,6 +97,7 @@ clean: coreCPP/clean
 clean: cppProject/clean
 clean: staffGovSystem/clean
 clean: studyNotes/clean
+clean: yanjiangbisai/clean
 
 .PHONY : clean
 
@@ -120,7 +123,7 @@ coreCPP/clean:
 # Directory level rules for directory cppProject
 
 # Recursive "all" directory target.
-cppProject/all:
+cppProject/all: cppProject/CMakeFiles/cppProject.dir/all
 
 .PHONY : cppProject/all
 
@@ -130,7 +133,7 @@ cppProject/preinstall:
 .PHONY : cppProject/preinstall
 
 # Recursive "clean" directory target.
-cppProject/clean:
+cppProject/clean: cppProject/CMakeFiles/cppProject.dir/clean
 
 .PHONY : cppProject/clean
 
@@ -212,13 +215,31 @@ studyNotes/courseTutorial/clean: studyNotes/courseTutorial/CMakeFiles/courseTuto
 .PHONY : studyNotes/courseTutorial/clean
 
 #=============================================================================
+# Directory level rules for directory yanjiangbisai
+
+# Recursive "all" directory target.
+yanjiangbisai/all: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/all
+
+.PHONY : yanjiangbisai/all
+
+# Recursive "preinstall" directory target.
+yanjiangbisai/preinstall:
+
+.PHONY : yanjiangbisai/preinstall
+
+# Recursive "clean" directory target.
+yanjiangbisai/clean: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/clean
+
+.PHONY : yanjiangbisai/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/cppStudy.dir
 
 # All Build rule for target.
 CMakeFiles/cppStudy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppStudy.dir/build.make CMakeFiles/cppStudy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppStudy.dir/build.make CMakeFiles/cppStudy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target cppStudy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target cppStudy"
 .PHONY : CMakeFiles/cppStudy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,13 +260,40 @@ CMakeFiles/cppStudy.dir/clean:
 .PHONY : CMakeFiles/cppStudy.dir/clean
 
 #=============================================================================
+# Target rules for target cppProject/CMakeFiles/cppProject.dir
+
+# All Build rule for target.
+cppProject/CMakeFiles/cppProject.dir/all:
+	$(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/depend
+	$(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target cppProject"
+.PHONY : cppProject/CMakeFiles/cppProject.dir/all
+
+# Build rule for subdir invocation for target.
+cppProject/CMakeFiles/cppProject.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cppProject/CMakeFiles/cppProject.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 0
+.PHONY : cppProject/CMakeFiles/cppProject.dir/rule
+
+# Convenience name for target.
+cppProject: cppProject/CMakeFiles/cppProject.dir/rule
+
+.PHONY : cppProject
+
+# clean rule for target.
+cppProject/CMakeFiles/cppProject.dir/clean:
+	$(MAKE) $(MAKESILENT) -f cppProject/CMakeFiles/cppProject.dir/build.make cppProject/CMakeFiles/cppProject.dir/clean
+.PHONY : cppProject/CMakeFiles/cppProject.dir/clean
+
+#=============================================================================
 # Target rules for target staffGovSystem/CMakeFiles/staffGovSystem.dir
 
 # All Build rule for target.
 staffGovSystem/CMakeFiles/staffGovSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target staffGovSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16 "Built target staffGovSystem"
 .PHONY : staffGovSystem/CMakeFiles/staffGovSystem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -272,7 +320,7 @@ staffGovSystem/CMakeFiles/staffGovSystem.dir/clean:
 studyNotes/CMakeFiles/studyNotes.dir/all:
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/depend
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=15,16,17 "Built target studyNotes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=17,18,19 "Built target studyNotes"
 .PHONY : studyNotes/CMakeFiles/studyNotes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -345,6 +393,33 @@ classTempProj: studyNotes/classTempProj/CMakeFiles/classTempProj.dir/rule
 studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean:
 	$(MAKE) $(MAKESILENT) -f studyNotes/classTempProj/CMakeFiles/classTempProj.dir/build.make studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean
 .PHONY : studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean
+
+#=============================================================================
+# Target rules for target yanjiangbisai/CMakeFiles/yanjiangbisai.dir
+
+# All Build rule for target.
+yanjiangbisai/CMakeFiles/yanjiangbisai.dir/all:
+	$(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/depend
+	$(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=20,21,22,23 "Built target yanjiangbisai"
+.PHONY : yanjiangbisai/CMakeFiles/yanjiangbisai.dir/all
+
+# Build rule for subdir invocation for target.
+yanjiangbisai/CMakeFiles/yanjiangbisai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yanjiangbisai/CMakeFiles/yanjiangbisai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 0
+.PHONY : yanjiangbisai/CMakeFiles/yanjiangbisai.dir/rule
+
+# Convenience name for target.
+yanjiangbisai: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/rule
+
+.PHONY : yanjiangbisai
+
+# clean rule for target.
+yanjiangbisai/CMakeFiles/yanjiangbisai.dir/clean:
+	$(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/clean
+.PHONY : yanjiangbisai/CMakeFiles/yanjiangbisai.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

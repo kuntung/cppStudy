@@ -145,33 +145,6 @@ yanjiangbisai/fast:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build
 .PHONY : yanjiangbisai/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 source/Speaker.o: source/Speaker.cpp.o
 
 .PHONY : source/Speaker.o
@@ -198,6 +171,33 @@ source/Speaker.s: source/Speaker.cpp.s
 source/Speaker.cpp.s:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/Speaker.cpp.s
 .PHONY : source/Speaker.cpp.s
+
+source/main.o: source/main.cpp.o
+
+.PHONY : source/main.o
+
+# target to build an object file
+source/main.cpp.o:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.o
+.PHONY : source/main.cpp.o
+
+source/main.i: source/main.cpp.i
+
+.PHONY : source/main.i
+
+# target to preprocess a source file
+source/main.cpp.i:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
+
+source/main.s: source/main.cpp.s
+
+.PHONY : source/main.s
+
+# target to generate assembly for a file
+source/main.cpp.s:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
 
 source/speechManager.o: source/speechManager.cpp.o
 
@@ -235,12 +235,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... yanjiangbisai"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... source/Speaker.o"
 	@echo "... source/Speaker.i"
 	@echo "... source/Speaker.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
 	@echo "... source/speechManager.o"
 	@echo "... source/speechManager.i"
 	@echo "... source/speechManager.s"

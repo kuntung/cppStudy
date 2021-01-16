@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/yanjiangbisai.dir/main.cpp.o"
   "CMakeFiles/yanjiangbisai.dir/source/Speaker.cpp.o"
+  "CMakeFiles/yanjiangbisai.dir/source/main.cpp.o"
   "CMakeFiles/yanjiangbisai.dir/source/speechManager.cpp.o"
   "yanjiangbisai"
   "yanjiangbisai.pdb"

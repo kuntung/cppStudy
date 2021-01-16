@@ -67,6 +67,11 @@
    - ios::out | ios::app //用追加的方式写文件
    - ios::in //读文件
    - ios::trunc //如果文件存在，则删除并重新创建
+   
+4. 逐行读取文本文件的数据
+   
+   - getline(ifs, data); //逐行读取数据并保存于data中，直至全部数据全部读取
+   
 ## 元素遍历新方式？
 ```c++
     for (auto & mit : sm.m1) {

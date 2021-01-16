@@ -5,7 +5,7 @@
 		<Option title="cppStudy"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\studyNotes\;CMake Files\studyNotes\classTempProj\;CMake Files\studyNotes\courseTutorial\;CMake Files\cppProject\;CMake Files\coreCPP\;CMake Files\staffGovSystem\;CMake Files\yanjiangbisai\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\studyNotes\;CMake Files\studyNotes\classTempProj\;CMake Files\studyNotes\courseTutorial\;CMake Files\cppProject\;CMake Files\coreCPP\;CMake Files\staffGovSystem\;CMake Files\jifangyuyve\;CMake Files\yanjiangbisai\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug"/>
@@ -327,6 +327,54 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/classTempProj/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="jifangyuyve">
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/jifangyuyve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tangkun/github/cppStudy/jifangyuyve/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 jifangyuyve"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jifangyuyve/fast">
+				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/jifangyuyve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tangkun/github/cppStudy/jifangyuyve/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 jifangyuyve/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="yanjiangbisai">
 				<Option output="/home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/yanjiangbisai" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai"/>
@@ -379,6 +427,39 @@
 		<Unit filename="/home/tangkun/github/cppStudy/cppProject/sourceProfile/txlGoveringSys.cpp">
 			<Option target="cppProject"/>
 		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/computerOrderSystem.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/globalFile.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/identity.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/manager.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/student.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/teacher.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/computerOrderSystem.cpp">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/main.cpp">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/manager.cpp">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/student.cpp">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/teacher.cpp">
+			<Option target="jifangyuyve"/>
+		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/main.cpp">
 			<Option target="cppStudy"/>
 		</Unit>
@@ -397,13 +478,16 @@
 		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/header/workerManager.h">
 			<Option target="staffGovSystem"/>
 		</Unit>
-		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/main.cpp">
-			<Option target="staffGovSystem"/>
-		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/boss.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/employee.cpp">
+			<Option target="staffGovSystem"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/globalFile.h">
+			<Option target="staffGovSystem"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/main.cpp">
 			<Option target="staffGovSystem"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/source/manager.cpp">
@@ -440,10 +524,10 @@
 		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/header/speechManager.h">
 			<Option target="yanjiangbisai"/>
 		</Unit>
-		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/main.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/source/Speaker.cpp">
 			<Option target="yanjiangbisai"/>
 		</Unit>
-		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/source/Speaker.cpp">
+		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/source/main.cpp">
 			<Option target="yanjiangbisai"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/source/speechManager.cpp">
@@ -469,6 +553,9 @@
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\staffGovSystem\"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\jifangyuyve\"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\yanjiangbisai\"/>

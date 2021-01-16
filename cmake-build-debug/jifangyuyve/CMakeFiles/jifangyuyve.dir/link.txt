@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/jifangyuyve.dir/source/main.cpp.o CMakeFiles/jifangyuyve.dir/source/student.cpp.o CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o CMakeFiles/jifangyuyve.dir/source/manager.cpp.o CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o  -o jifangyuyve 

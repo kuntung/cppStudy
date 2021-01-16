@@ -209,6 +209,19 @@ classTempProj/fast:
 .PHONY : classTempProj/fast
 
 #=============================================================================
+# Target rules for targets named jifangyuyve
+
+# Build rule for target.
+jifangyuyve: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jifangyuyve
+.PHONY : jifangyuyve
+
+# fast build rule for target.
+jifangyuyve/fast:
+	$(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/build
+.PHONY : jifangyuyve/fast
+
+#=============================================================================
 # Target rules for targets named yanjiangbisai
 
 # Build rule for target.
@@ -260,6 +273,7 @@ help:
 	@echo "... courseTutorial"
 	@echo "... cppProject"
 	@echo "... cppStudy"
+	@echo "... jifangyuyve"
 	@echo "... staffGovSystem"
 	@echo "... studyNotes"
 	@echo "... yanjiangbisai"

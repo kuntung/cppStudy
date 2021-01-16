@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tangkun/github/cppStudy/yanjiangbisai/header/Speaker.h
+../yanjiangbisai/header/Speaker.h
 iostream
 -
 
-/home/tangkun/github/cppStudy/yanjiangbisai/header/speechManager.h
+../yanjiangbisai/header/speechManager.h
 iostream
 -
 vector
@@ -18,15 +18,23 @@ vector
 map
 -
 Speaker.h
-/home/tangkun/github/cppStudy/yanjiangbisai/header/Speaker.h
+../yanjiangbisai/header/Speaker.h
 string
 -
 
-/home/tangkun/github/cppStudy/yanjiangbisai/main.cpp
-iostream
--
+/home/tangkun/github/cppStudy/yanjiangbisai/source/speechManager.cpp
 header/speechManager.h
-/home/tangkun/github/cppStudy/yanjiangbisai/header/speechManager.h
-ctime
+/home/tangkun/github/cppStudy/yanjiangbisai/source/header/speechManager.h
+algorithm
+-
+random
+-
+deque
+-
+map
+-
+fstream
+-
+numeric
 -
 

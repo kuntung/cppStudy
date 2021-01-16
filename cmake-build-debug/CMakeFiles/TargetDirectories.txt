@@ -18,6 +18,9 @@
 /home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/classTempProj/CMakeFiles/rebuild_cache.dir
 /home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/classTempProj/CMakeFiles/edit_cache.dir
 /home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/classTempProj/CMakeFiles/classTempProj.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/rebuild_cache.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/edit_cache.dir
+/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir
 /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/CMakeFiles/rebuild_cache.dir
 /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/CMakeFiles/edit_cache.dir
 /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/CMakeFiles/yanjiangbisai.dir

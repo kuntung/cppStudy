@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tangkun/github/cppStudy/yanjiangbisai/main.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.o"
   "/home/tangkun/github/cppStudy/yanjiangbisai/source/Speaker.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/Speaker.cpp.o"
+  "/home/tangkun/github/cppStudy/yanjiangbisai/source/main.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.o"
   "/home/tangkun/github/cppStudy/yanjiangbisai/source/speechManager.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/speechManager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

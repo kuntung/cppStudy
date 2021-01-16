@@ -77,18 +77,18 @@ include staffGovSystem/CMakeFiles/staffGovSystem.dir/progress.make
 # Include the compile flags for this target's objects.
 include staffGovSystem/CMakeFiles/staffGovSystem.dir/flags.make
 
-staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.o: staffGovSystem/CMakeFiles/staffGovSystem.dir/flags.make
-staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.o: ../staffGovSystem/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.o"
-	cd /home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/staffGovSystem.dir/main.cpp.o -c /home/tangkun/github/cppStudy/staffGovSystem/main.cpp
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.o: staffGovSystem/CMakeFiles/staffGovSystem.dir/flags.make
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.o: ../staffGovSystem/source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.o"
+	cd /home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/staffGovSystem.dir/source/main.cpp.o -c /home/tangkun/github/cppStudy/staffGovSystem/source/main.cpp
 
-staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/staffGovSystem.dir/main.cpp.i"
-	cd /home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tangkun/github/cppStudy/staffGovSystem/main.cpp > CMakeFiles/staffGovSystem.dir/main.cpp.i
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/staffGovSystem.dir/source/main.cpp.i"
+	cd /home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tangkun/github/cppStudy/staffGovSystem/source/main.cpp > CMakeFiles/staffGovSystem.dir/source/main.cpp.i
 
-staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/staffGovSystem.dir/main.cpp.s"
-	cd /home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tangkun/github/cppStudy/staffGovSystem/main.cpp -o CMakeFiles/staffGovSystem.dir/main.cpp.s
+staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/staffGovSystem.dir/source/main.cpp.s"
+	cd /home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tangkun/github/cppStudy/staffGovSystem/source/main.cpp -o CMakeFiles/staffGovSystem.dir/source/main.cpp.s
 
 staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o: staffGovSystem/CMakeFiles/staffGovSystem.dir/flags.make
 staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o: ../staffGovSystem/source/workerManager.cpp
@@ -157,7 +157,7 @@ staffGovSystem/CMakeFiles/staffGovSystem.dir/source/manager.cpp.s: cmake_force
 
 # Object files for target staffGovSystem
 staffGovSystem_OBJECTS = \
-"CMakeFiles/staffGovSystem.dir/main.cpp.o" \
+"CMakeFiles/staffGovSystem.dir/source/main.cpp.o" \
 "CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o" \
 "CMakeFiles/staffGovSystem.dir/source/worker.cpp.o" \
 "CMakeFiles/staffGovSystem.dir/source/employee.cpp.o" \
@@ -167,7 +167,7 @@ staffGovSystem_OBJECTS = \
 # External object files for target staffGovSystem
 staffGovSystem_EXTERNAL_OBJECTS =
 
-staffGovSystem/staffGovSystem: staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.o
+staffGovSystem/staffGovSystem: staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.o
 staffGovSystem/staffGovSystem: staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o
 staffGovSystem/staffGovSystem: staffGovSystem/CMakeFiles/staffGovSystem.dir/source/worker.cpp.o
 staffGovSystem/staffGovSystem: staffGovSystem/CMakeFiles/staffGovSystem.dir/source/employee.cpp.o

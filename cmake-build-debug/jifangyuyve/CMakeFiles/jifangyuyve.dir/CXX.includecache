@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../jifangyuyve/header/globalFile.h
+
+../jifangyuyve/header/identity.h
+iostream
+-
+
+/home/tangkun/github/cppStudy/jifangyuyve/source/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+header/identity.h
+/home/tangkun/github/cppStudy/jifangyuyve/source/header/identity.h
+header/globalFile.h
+/home/tangkun/github/cppStudy/jifangyuyve/source/header/globalFile.h
+

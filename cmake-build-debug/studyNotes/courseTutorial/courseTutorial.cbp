@@ -5,7 +5,7 @@
 		<Option title="courseTutorial"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\studyNotes\;CMake Files\studyNotes\classTempProj\;CMake Files\studyNotes\courseTutorial\;CMake Files\cppProject\;CMake Files\coreCPP\;CMake Files\staffGovSystem\;CMake Files\yanjiangbisai\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\studyNotes\;CMake Files\studyNotes\classTempProj\;CMake Files\studyNotes\courseTutorial\;CMake Files\cppProject\;CMake Files\coreCPP\;CMake Files\staffGovSystem\;CMake Files\jifangyuyve\;CMake Files\yanjiangbisai\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/tangkun/github/cppStudy/cmake-build-debug/studyNotes/courseTutorial"/>
@@ -100,6 +100,9 @@
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/staffGovSystem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\staffGovSystem\"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\jifangyuyve\"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/yanjiangbisai/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\yanjiangbisai\"/>

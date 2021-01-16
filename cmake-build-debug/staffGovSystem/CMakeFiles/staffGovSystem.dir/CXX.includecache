@@ -50,27 +50,9 @@ header/manager.h
 fstream
 -
 
-/home/tangkun/github/cppStudy/staffGovSystem/source/boss.cpp
-header/boss.h
-/home/tangkun/github/cppStudy/staffGovSystem/source/header/boss.h
-
-/home/tangkun/github/cppStudy/staffGovSystem/source/employee.cpp
-header/employee.h
-/home/tangkun/github/cppStudy/staffGovSystem/source/header/employee.h
-string
--
+/home/tangkun/github/cppStudy/staffGovSystem/source/main.cpp
 iostream
 -
-
-/home/tangkun/github/cppStudy/staffGovSystem/source/manager.cpp
-header/manager.h
-/home/tangkun/github/cppStudy/staffGovSystem/source/header/manager.h
-
-/home/tangkun/github/cppStudy/staffGovSystem/source/worker.cpp
-header/worker.h
-/home/tangkun/github/cppStudy/staffGovSystem/source/header/worker.h
-
-/home/tangkun/github/cppStudy/staffGovSystem/source/workerManager.cpp
 header/workerManager.h
 /home/tangkun/github/cppStudy/staffGovSystem/source/header/workerManager.h
 

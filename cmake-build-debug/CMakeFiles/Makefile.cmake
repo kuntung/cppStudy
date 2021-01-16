@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
   "../coreCPP/CMakeLists.txt"
   "../cppProject/CMakeLists.txt"
+  "../jifangyuyve/CMakeLists.txt"
   "../staffGovSystem/CMakeLists.txt"
   "../studyNotes/CMakeLists.txt"
   "../studyNotes/classTempProj/CMakeLists.txt"
@@ -57,6 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "studyNotes/CMakeFiles/CMakeDirectoryInformation.cmake"
   "studyNotes/courseTutorial/CMakeFiles/CMakeDirectoryInformation.cmake"
   "studyNotes/classTempProj/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "jifangyuyve/CMakeFiles/CMakeDirectoryInformation.cmake"
   "yanjiangbisai/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -68,5 +70,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "studyNotes/CMakeFiles/studyNotes.dir/DependInfo.cmake"
   "studyNotes/courseTutorial/CMakeFiles/courseTutorial.dir/DependInfo.cmake"
   "studyNotes/classTempProj/CMakeFiles/classTempProj.dir/DependInfo.cmake"
+  "jifangyuyve/CMakeFiles/jifangyuyve.dir/DependInfo.cmake"
   "yanjiangbisai/CMakeFiles/yanjiangbisai.dir/DependInfo.cmake"
   )

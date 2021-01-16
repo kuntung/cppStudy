@@ -145,33 +145,6 @@ staffGovSystem/fast:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/build
 .PHONY : staffGovSystem/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 source/boss.o: source/boss.cpp.o
 
 .PHONY : source/boss.o
@@ -225,6 +198,33 @@ source/employee.s: source/employee.cpp.s
 source/employee.cpp.s:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/source/employee.cpp.s
 .PHONY : source/employee.cpp.s
+
+source/main.o: source/main.cpp.o
+
+.PHONY : source/main.o
+
+# target to build an object file
+source/main.cpp.o:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.o
+.PHONY : source/main.cpp.o
+
+source/main.i: source/main.cpp.i
+
+.PHONY : source/main.i
+
+# target to preprocess a source file
+source/main.cpp.i:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
+
+source/main.s: source/main.cpp.s
+
+.PHONY : source/main.s
+
+# target to generate assembly for a file
+source/main.cpp.s:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
 
 source/manager.o: source/manager.cpp.o
 
@@ -316,15 +316,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... staffGovSystem"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... source/boss.o"
 	@echo "... source/boss.i"
 	@echo "... source/boss.s"
 	@echo "... source/employee.o"
 	@echo "... source/employee.i"
 	@echo "... source/employee.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
 	@echo "... source/manager.o"
 	@echo "... source/manager.i"
 	@echo "... source/manager.s"

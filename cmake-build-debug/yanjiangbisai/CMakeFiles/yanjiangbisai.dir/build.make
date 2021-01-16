@@ -77,18 +77,18 @@ include yanjiangbisai/CMakeFiles/yanjiangbisai.dir/progress.make
 # Include the compile flags for this target's objects.
 include yanjiangbisai/CMakeFiles/yanjiangbisai.dir/flags.make
 
-yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.o: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/flags.make
-yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.o: ../yanjiangbisai/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.o"
-	cd /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yanjiangbisai.dir/main.cpp.o -c /home/tangkun/github/cppStudy/yanjiangbisai/main.cpp
+yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.o: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/flags.make
+yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.o: ../yanjiangbisai/source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.o"
+	cd /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yanjiangbisai.dir/source/main.cpp.o -c /home/tangkun/github/cppStudy/yanjiangbisai/source/main.cpp
 
-yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yanjiangbisai.dir/main.cpp.i"
-	cd /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tangkun/github/cppStudy/yanjiangbisai/main.cpp > CMakeFiles/yanjiangbisai.dir/main.cpp.i
+yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yanjiangbisai.dir/source/main.cpp.i"
+	cd /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tangkun/github/cppStudy/yanjiangbisai/source/main.cpp > CMakeFiles/yanjiangbisai.dir/source/main.cpp.i
 
-yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yanjiangbisai.dir/main.cpp.s"
-	cd /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tangkun/github/cppStudy/yanjiangbisai/main.cpp -o CMakeFiles/yanjiangbisai.dir/main.cpp.s
+yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yanjiangbisai.dir/source/main.cpp.s"
+	cd /home/tangkun/github/cppStudy/cmake-build-debug/yanjiangbisai && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tangkun/github/cppStudy/yanjiangbisai/source/main.cpp -o CMakeFiles/yanjiangbisai.dir/source/main.cpp.s
 
 yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/speechManager.cpp.o: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/flags.make
 yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/speechManager.cpp.o: ../yanjiangbisai/source/speechManager.cpp
@@ -118,14 +118,14 @@ yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/Speaker.cpp.s: cmake_force
 
 # Object files for target yanjiangbisai
 yanjiangbisai_OBJECTS = \
-"CMakeFiles/yanjiangbisai.dir/main.cpp.o" \
+"CMakeFiles/yanjiangbisai.dir/source/main.cpp.o" \
 "CMakeFiles/yanjiangbisai.dir/source/speechManager.cpp.o" \
 "CMakeFiles/yanjiangbisai.dir/source/Speaker.cpp.o"
 
 # External object files for target yanjiangbisai
 yanjiangbisai_EXTERNAL_OBJECTS =
 
-yanjiangbisai/yanjiangbisai: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/main.cpp.o
+yanjiangbisai/yanjiangbisai: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/main.cpp.o
 yanjiangbisai/yanjiangbisai: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/speechManager.cpp.o
 yanjiangbisai/yanjiangbisai: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/source/Speaker.cpp.o
 yanjiangbisai/yanjiangbisai: yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make

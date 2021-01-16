@@ -4,6 +4,7 @@
 
 #include "header/manager.h"
 
+
 void Manager::show_info() {
     cout<<"职工编号为:"<<this->m_id
         <<"\t职工姓名:"<<this->m_name
@@ -25,3 +26,4 @@ string Manager::get_deptName() {
 string Manager::get_workType() {
     return string("完成老板下发的任务，派发任务给普通员工");
 }
+

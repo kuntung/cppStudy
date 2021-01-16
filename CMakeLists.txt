@@ -8,6 +8,7 @@ ADD_SUBDIRECTORY(coreCPP)
 ADD_SUBDIRECTORY(cppProject)
 ADD_SUBDIRECTORY(staffGovSystem)
 ADD_SUBDIRECTORY(studyNotes)
+ADD_SUBDIRECTORY(jifangyuyve)
 ADD_SUBDIRECTORY(yanjiangbisai)
 
 

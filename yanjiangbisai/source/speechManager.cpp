@@ -44,12 +44,13 @@ void SpeechManager::exit_System() {//退出功能
 void SpeechManager::start_System() {//开始演讲
     //第一轮比赛
     //1.抽签
+    this->speechDraw();
     //2.比赛
     this->speechContest();
     //3.显示晋级结果
     this->showScore();
-    this->m_int++;
     //第二轮比赛
+    this->m_int++;
     //1.抽签
     this->speechDraw();
     //2.比赛
@@ -178,9 +179,7 @@ void SpeechManager::speechContest() {
                 }
 
             }
-            for (auto &mit: groupScore) {
 
-            }
             groupScore.clear(); //一组比赛完后，清空
             cout << endl;
         }

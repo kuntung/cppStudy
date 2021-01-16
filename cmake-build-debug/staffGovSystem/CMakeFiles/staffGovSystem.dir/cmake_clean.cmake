@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/staffGovSystem.dir/main.cpp.o"
   "CMakeFiles/staffGovSystem.dir/source/boss.cpp.o"
   "CMakeFiles/staffGovSystem.dir/source/employee.cpp.o"
+  "CMakeFiles/staffGovSystem.dir/source/main.cpp.o"
   "CMakeFiles/staffGovSystem.dir/source/manager.cpp.o"
   "CMakeFiles/staffGovSystem.dir/source/worker.cpp.o"
   "CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o"

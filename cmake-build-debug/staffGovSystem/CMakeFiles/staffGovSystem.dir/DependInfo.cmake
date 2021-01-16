@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tangkun/github/cppStudy/staffGovSystem/main.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/main.cpp.o"
   "/home/tangkun/github/cppStudy/staffGovSystem/source/boss.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/boss.cpp.o"
   "/home/tangkun/github/cppStudy/staffGovSystem/source/employee.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/employee.cpp.o"
+  "/home/tangkun/github/cppStudy/staffGovSystem/source/main.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/main.cpp.o"
   "/home/tangkun/github/cppStudy/staffGovSystem/source/manager.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/manager.cpp.o"
   "/home/tangkun/github/cppStudy/staffGovSystem/source/worker.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/worker.cpp.o"
   "/home/tangkun/github/cppStudy/staffGovSystem/source/workerManager.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/staffGovSystem/CMakeFiles/staffGovSystem.dir/source/workerManager.cpp.o"

@@ -145,6 +145,33 @@ jifangyuyve/fast:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/build
 .PHONY : jifangyuyve/fast
 
+source/computer.o: source/computer.cpp.o
+
+.PHONY : source/computer.o
+
+# target to build an object file
+source/computer.cpp.o:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computer.cpp.o
+.PHONY : source/computer.cpp.o
+
+source/computer.i: source/computer.cpp.i
+
+.PHONY : source/computer.i
+
+# target to preprocess a source file
+source/computer.cpp.i:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computer.cpp.i
+.PHONY : source/computer.cpp.i
+
+source/computer.s: source/computer.cpp.s
+
+.PHONY : source/computer.s
+
+# target to generate assembly for a file
+source/computer.cpp.s:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computer.cpp.s
+.PHONY : source/computer.cpp.s
+
 source/computerOrderSystem.o: source/computerOrderSystem.cpp.o
 
 .PHONY : source/computerOrderSystem.o
@@ -289,6 +316,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... jifangyuyve"
+	@echo "... source/computer.o"
+	@echo "... source/computer.i"
+	@echo "... source/computer.s"
 	@echo "... source/computerOrderSystem.o"
 	@echo "... source/computerOrderSystem.i"
 	@echo "... source/computerOrderSystem.s"

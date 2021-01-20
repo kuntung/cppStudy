@@ -66,6 +66,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/computer.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/computerOrderSystem.h">
 			<Option target="jifangyuyve"/>
 		</Unit>
@@ -82,6 +85,9 @@
 			<Option target="jifangyuyve"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/teacher.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/computer.cpp">
 			<Option target="jifangyuyve"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/computerOrderSystem.cpp">

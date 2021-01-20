@@ -68,10 +68,21 @@
    - ios::in //读文件
    - ios::trunc //如果文件存在，则删除并重新创建
    
-4. 逐行读取文本文件的数据
+4. [逐行读取文本文件的数据](https://blog.csdn.net/qq_26304333/article/details/74036848?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2.control)
    
    - getline(ifs, data); //逐行读取数据并保存于data中，直至全部数据全部读取
    
+## 多态
+1. 父类指针指向子类对象，可以调用公共接口
+2. 将父类指针转为子类指针，可以调用子类里的其他接口
+   ```c++
+   //调用管理员子菜单
+   manager->openMenu();
+
+   //将父类指针转为子类指针，调用子类里其他接口
+   Manager *man = (Manager *) manager;
+   ```
+
 ## 元素遍历新方式？
 ```c++
     for (auto & mit : sm.m1) {
@@ -84,3 +95,8 @@
 
 因此，除非允许构造函数被用于隐式类型转换，否则将其声明为`explicit`
 ## `auto`
+
+## `int*&`
+`int &*p`是不正确的，*与p靠得最近，所以p是一个指针，但是这个指针的类型是`int &`,所以这个是错吴的，因为不能创建对于引用的指针。
+
+`int *& p`, 是正确的， &与p靠得最近，所以p是一个引用，这个引用的类型是`int*`，也就是一个指针变量的引用，但是必须初始化，否则也是错误的。

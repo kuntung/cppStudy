@@ -6,21 +6,53 @@
 
 #IncludeRegexTransform: 
 
+../jifangyuyve/header/computer.h
+iostream
+-
+
 ../jifangyuyve/header/globalFile.h
+student.h
+../jifangyuyve/header/student.h
+teacher.h
+../jifangyuyve/header/teacher.h
 
 ../jifangyuyve/header/identity.h
 iostream
 -
 
-/home/tangkun/github/cppStudy/jifangyuyve/source/main.cpp
+../jifangyuyve/header/manager.h
 iostream
 -
+identity.h
+../jifangyuyve/header/identity.h
+globalFile.h
+../jifangyuyve/header/globalFile.h
+vector
+-
+student.h
+../jifangyuyve/header/student.h
+teacher.h
+../jifangyuyve/header/teacher.h
+computer.h
+../jifangyuyve/header/computer.h
 fstream
 -
-string
+algorithm
 -
-header/identity.h
-/home/tangkun/github/cppStudy/jifangyuyve/source/header/identity.h
-header/globalFile.h
-/home/tangkun/github/cppStudy/jifangyuyve/source/header/globalFile.h
+
+../jifangyuyve/header/student.h
+iostream
+-
+identity.h
+../jifangyuyve/header/identity.h
+
+../jifangyuyve/header/teacher.h
+iostream
+-
+identity.h
+../jifangyuyve/header/identity.h
+
+/home/tangkun/github/cppStudy/jifangyuyve/source/manager.cpp
+header/manager.h
+/home/tangkun/github/cppStudy/jifangyuyve/source/header/manager.h
 

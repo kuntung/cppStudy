@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/tangkun/github/cppStudy/jifangyuyve/source/computer.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computer.cpp.o"
   "/home/tangkun/github/cppStudy/jifangyuyve/source/computerOrderSystem.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o"
   "/home/tangkun/github/cppStudy/jifangyuyve/source/main.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o"
   "/home/tangkun/github/cppStudy/jifangyuyve/source/manager.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o"

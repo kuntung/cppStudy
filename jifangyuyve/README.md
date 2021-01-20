@@ -119,7 +119,45 @@ int type)`
 - fileName：操作的文件名
 - type：登录的身份（1：学生，2：教师，3：管理员）
 
+## 管理员模块
+1. 管理员登录与注销
+2. 添加账号
+3. 去重操作
+4. 显示账号
+5. 查看机房
+6. 清空预约
 
+### 去重操作
+通过在管理员模块中提供两个容器，来读取并保存当前的账号信息
+
+去重函数封装：
+
+在`manager.h`文件中添加成员函数`bool checkRepeat(int id, int type);`
+   ```c++
+   
+   ```
+
+**bug解决：**
+1. 虽然可以检测重复的账号，但是刚添加的账号由于没有更新到容器中，因此不会做检测
+2. 导致刚加入的账号的学生号或者职工编号，再次添加时仍然可以重复
+
+**解决方案：** 在每次添加新账号之后，重新初始化容器`this->initVector()`
+
+## 清空预约
+功能描述：清空生成的`order.txt`预约文件。以`ios::trunc`方式打开目标文件即可
+
+清空功能实现：
+```c++
+    ofstream ofs(filename, ios::trunc); // 清空目标文件
+    ofs.close();
+
+    cout << "清空成功" << endl;
+    system("read -p 'Press Enter to continue...' var");
+    system("clear");
+
+    this->initVector();
+```
+需要注意的是，在清空完相关文件信息以后，需要将容器进行重载。及时更新容器中的内容
 # 知识点总结
 ## 实现流程
 1. 需求分析
@@ -143,9 +181,49 @@ int type)`
 ## C++面向对象的三大特性
 1. 多态
 - 利用父类指针指向子类对象
+- 将父类对象转换为子类的对象，调用子类私有接口
 
 2. `static`关键字
    
+
+## STL
+1. 容器元素的遍历:`for_each(.begin(), .end(), Rule);`
+   规则可以通过传入自定义`普通函数`或者`仿函数`实现
+   
+2. 常用的查找算法：
+   
+   - 1.find //查找元素
+   - find_if //按条件查找元素
+   - adjacent_find //查找相邻重复元素
+   - binary_search //二分查找法
+   - count //统计元素个数
+   - count_if //按条件统计元素个数
+   
+   对于自定义数据类型，需要重载`==`运算符
+   ```c++
+   //重载==运算符，因为对于自定义数据类型，find最开始不知道如何进行比较
+    bool operator==(const string & name) const{
+        if(this->m_name == name){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+   ```
+
+3. 常用拷贝和替换算法
+
+   - replace(); //将指定范围内的旧元素修改为新元素
+   - [replace_if()](http://www.cplusplus.com/reference/algorithm/replace_if/); 
+     //将指定范围内满足条件的元素替换为新元素
+
+     >Unary function that accepts an element in the range as argument, and returns a value convertible to bool. The value returned indicates whether the element is to be replaced (if true, it is replaced).
+     The function shall not modify its argument.
+     This can either be a function pointer or a function object.
+   - copy()
+   - swap()
+   
 ## 小技巧
 1. 全局文件宏定义的好处
-
+2. [c++Lambda表达式写法](https://blog.csdn.net/kksc1099054857/article/details/106816687)

@@ -7,6 +7,9 @@
 
 #include<iostream>
 #include"identity.h"
+#include"orderFile.h"
+#include"student.h"
+#include<vector>
 
 using namespace std;
 
@@ -15,6 +18,15 @@ public:
     explicit Teacher(); //默认构造
     explicit Teacher(int empId, string name, string pwd); //有参构造
 
+    //重载==运算符
+    bool operator==(const int & id) const{
+        if(this->m_empId == id){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
     //展示菜单
     virtual void openMenu();
 

@@ -334,7 +334,7 @@ void OrderManager::tearcherMenu(Identity *&teacher) {
 
 void OrderManager::studentMenu(Identity *&student) {
     while (true) {
-        //调用管理员子菜单
+        //调用学生子菜单
         student->openMenu();
 
         //将父类指针转为子类指针，调用子类里其他接口

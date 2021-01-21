@@ -253,6 +253,33 @@ source/manager.cpp.s:
 	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.s
 .PHONY : source/manager.cpp.s
 
+source/orderFile.o: source/orderFile.cpp.o
+
+.PHONY : source/orderFile.o
+
+# target to build an object file
+source/orderFile.cpp.o:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o
+.PHONY : source/orderFile.cpp.o
+
+source/orderFile.i: source/orderFile.cpp.i
+
+.PHONY : source/orderFile.i
+
+# target to preprocess a source file
+source/orderFile.cpp.i:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.i
+.PHONY : source/orderFile.cpp.i
+
+source/orderFile.s: source/orderFile.cpp.s
+
+.PHONY : source/orderFile.s
+
+# target to generate assembly for a file
+source/orderFile.cpp.s:
+	cd /home/tangkun/github/cppStudy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.s
+.PHONY : source/orderFile.cpp.s
+
 source/student.o: source/student.cpp.o
 
 .PHONY : source/student.o
@@ -328,6 +355,9 @@ help:
 	@echo "... source/manager.o"
 	@echo "... source/manager.i"
 	@echo "... source/manager.s"
+	@echo "... source/orderFile.o"
+	@echo "... source/orderFile.i"
+	@echo "... source/orderFile.s"
 	@echo "... source/student.o"
 	@echo "... source/student.i"
 	@echo "... source/student.s"

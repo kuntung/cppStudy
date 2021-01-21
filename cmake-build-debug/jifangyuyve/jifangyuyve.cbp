@@ -81,6 +81,9 @@
 		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/manager.h">
 			<Option target="jifangyuyve"/>
 		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/orderFile.h">
+			<Option target="jifangyuyve"/>
+		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/header/student.h">
 			<Option target="jifangyuyve"/>
 		</Unit>
@@ -97,6 +100,9 @@
 			<Option target="jifangyuyve"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/manager.cpp">
+			<Option target="jifangyuyve"/>
+		</Unit>
+		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/orderFile.cpp">
 			<Option target="jifangyuyve"/>
 		</Unit>
 		<Unit filename="/home/tangkun/github/cppStudy/jifangyuyve/source/student.cpp">

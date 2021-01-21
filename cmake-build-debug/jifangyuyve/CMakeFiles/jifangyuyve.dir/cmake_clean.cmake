@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o"
   "CMakeFiles/jifangyuyve.dir/source/main.cpp.o"
   "CMakeFiles/jifangyuyve.dir/source/manager.cpp.o"
+  "CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o"
   "CMakeFiles/jifangyuyve.dir/source/student.cpp.o"
   "CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o"
   "jifangyuyve"

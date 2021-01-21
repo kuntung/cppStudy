@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/cppProject/sourceProfile/txlGoveringSys.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/staffGovSystem/header/workerManager.h" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/staffGovSystem/main.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/staffGovSystem/source/boss.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/staffGovSystem/source/employee.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/staffGovSystem/source/main.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/staffGovSystem/source/manager.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/staffGovSystem/source/worker.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/staffGovSystem/source/workerManager.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yanjiangbisai/source/main.cpp" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

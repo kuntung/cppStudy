@@ -314,7 +314,7 @@ cppProject/CMakeFiles/cppProject.dir/clean:
 staffGovSystem/CMakeFiles/staffGovSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f staffGovSystem/CMakeFiles/staffGovSystem.dir/build.make staffGovSystem/CMakeFiles/staffGovSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target staffGovSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=18,19,20,21,22,23,24 "Built target staffGovSystem"
 .PHONY : staffGovSystem/CMakeFiles/staffGovSystem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -341,7 +341,7 @@ staffGovSystem/CMakeFiles/staffGovSystem.dir/clean:
 studyNotes/CMakeFiles/studyNotes.dir/all:
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/depend
 	$(MAKE) $(MAKESILENT) -f studyNotes/CMakeFiles/studyNotes.dir/build.make studyNotes/CMakeFiles/studyNotes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=24,25,26 "Built target studyNotes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target studyNotes"
 .PHONY : studyNotes/CMakeFiles/studyNotes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -422,12 +422,12 @@ studyNotes/classTempProj/CMakeFiles/classTempProj.dir/clean:
 jifangyuyve/CMakeFiles/jifangyuyve.dir/all:
 	$(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/depend
 	$(MAKE) $(MAKESILENT) -f jifangyuyve/CMakeFiles/jifangyuyve.dir/build.make jifangyuyve/CMakeFiles/jifangyuyve.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16 "Built target jifangyuyve"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16,17 "Built target jifangyuyve"
 .PHONY : jifangyuyve/CMakeFiles/jifangyuyve.dir/all
 
 # Build rule for subdir invocation for target.
 jifangyuyve/CMakeFiles/jifangyuyve.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jifangyuyve/CMakeFiles/jifangyuyve.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles 0
 .PHONY : jifangyuyve/CMakeFiles/jifangyuyve.dir/rule
@@ -449,7 +449,7 @@ jifangyuyve/CMakeFiles/jifangyuyve.dir/clean:
 yanjiangbisai/CMakeFiles/yanjiangbisai.dir/all:
 	$(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/depend
 	$(MAKE) $(MAKESILENT) -f yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build.make yanjiangbisai/CMakeFiles/yanjiangbisai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=27,28,29,30 "Built target yanjiangbisai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tangkun/github/cppStudy/cmake-build-debug/CMakeFiles --progress-num=28,29,30,31 "Built target yanjiangbisai"
 .PHONY : yanjiangbisai/CMakeFiles/yanjiangbisai.dir/all
 
 # Build rule for subdir invocation for target.

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tangkun/github/cppStudy/jifangyuyve/source/computerOrderSystem.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o"
   "/home/tangkun/github/cppStudy/jifangyuyve/source/main.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o"
   "/home/tangkun/github/cppStudy/jifangyuyve/source/manager.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o"
+  "/home/tangkun/github/cppStudy/jifangyuyve/source/orderFile.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o"
   "/home/tangkun/github/cppStudy/jifangyuyve/source/student.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o"
   "/home/tangkun/github/cppStudy/jifangyuyve/source/teacher.cpp" "/home/tangkun/github/cppStudy/cmake-build-debug/jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o"
   )

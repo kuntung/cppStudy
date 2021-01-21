@@ -40,7 +40,8 @@ public:
     void addComputerRoom(); //添加机房信息
     void editComputerRoom(); //修改机房信息
     void cleanFile(const string & filename); //清空预约记录
-
+    void editFile(int type); //修改文件
+    void editClient(int type); //修改学生和教师账户信息
     //容器
     vector<Student> vStu;
     vector<Teacher> vTea;

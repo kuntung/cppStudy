@@ -17,17 +17,17 @@ int main() {
 //    cin>>cleanTag;
 //    om.cleanFile(cleanTag);
 
-    cout<<"进行文件添加操作:"<<endl;
-    cout<<"请选择要添加的文件类别。1.学生，2.教师，3.管理员"<<endl;
-    int cleanTag = 0;
-    cin>>cleanTag;
-    om.preDefine(cleanTag);
+//    cout<<"进行文件添加操作:"<<endl;
+//    cout<<"请选择要添加的文件类别。1.学生，2.教师，3.管理员"<<endl;
+//    int cleanTag = 0;
+//    cin>>cleanTag;
+//    om.preDefine(cleanTag);
 
     while (true) {
         om.show_menu();
         cout << "请输入您的选择:";
-        cin >> select; //接受用户的选择
 
+        cin >> select; //接受用户的选择
         switch (select) {
             case 1: //学生身份
                 om.LoginIn(STUDENT_FILE, 1);

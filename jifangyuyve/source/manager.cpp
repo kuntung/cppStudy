@@ -9,6 +9,11 @@ void printStudent(Student &student) { //打印学生信息的普通函数
 
 }
 
+void printTeacher(Teacher &teacher) { //打印学生信息的普通函数
+    cout << "职工号:" << teacher.m_empId << " 姓名:" << teacher.m_name << " 密码:" << teacher.m_pwd << endl;
+
+}
+
 void printComputerRoom(Computer &computer) { //逐个打印机房信息的普通函数
     cout << computer.m_name << "，容量:" << computer.m_size << endl;
 }
@@ -88,6 +93,14 @@ void Manager::clientAction() {
                     this->cleanFile(TEACHER_FILE);
                 }
                 break;
+            case 5:
+                int type;
+                cout << "请输入要修改的账户类型：" << endl;
+                cout << "1.学生" << endl;
+                cout << "2.教师" << endl;
+                cin >> type;
+                this->editClient(type);
+                break;  //忘记添加break语句，导致default接着执行
             default: //默认情况，注销登录
                 cout << "注销成功" << endl;
                 system("read -p 'Press Enter to continue...' var");
@@ -133,7 +146,7 @@ void Manager::computerAction() {
             this->cleanFile(COMPUTER_FILE); //重置机房信息
         }
         else{
-            cout << "注销成功" << endl;
+            cout << "注销不成功" << endl;
             system("read -p 'Press Enter to continue...' var");
             system("clear");
             return;
@@ -221,7 +234,7 @@ void Manager::showPerson() {
         for_each(this->vStu.begin(), this->vStu.end(), printStudent); //通过传入仿函数或者普通函数
     } else if (select == 2) {
         cout << "所有教师的信息如下：" << endl;
-        for_each(this->vTea.begin(), this->vTea.end(), PrintTeacher()); //通过传入仿函数或者普通函数
+        for_each(this->vTea.begin(), this->vTea.end(), printTeacher); //通过传入仿函数或者普通函数
     }
 
     system("read -p 'Press Enter to continue...' var");
@@ -386,7 +399,7 @@ void Manager::editComputerRoom() {
     cout << "请输入要修改的机房名称：" << endl;
     string roomName;
     vector<Computer>::iterator findName;
-    while (true){
+    while (true){  //查找是否存在这样的机房名称
         cin >> roomName;
         //
         findName = find(this->vCom.begin(), this->vCom.end(), roomName);
@@ -397,8 +410,21 @@ void Manager::editComputerRoom() {
             break;
         }
     }
+    cout << "请输入新机房的名称：" << endl;
+    string newRoomName;
+    while (true){
+        cin >> newRoomName;
+        //
+        findName = find(this->vCom.begin(), this->vCom.end(), newRoomName);
+        if(findName == this->vCom.end()){
+            break;
+        }
+        else{
+            cout << "已经存在名为" << newRoomName << "的机房。请重新输入" << endl;
+        }
+    }
     //替换找到位置的机房名称
-    cout << "请输入新机房<" << roomName << ">的容量:" << endl;
+    cout << "请输入新机房<" << newRoomName << ">的容量:" << endl;
     int newSize;
     while(true){
         cin >> newSize;
@@ -410,16 +436,120 @@ void Manager::editComputerRoom() {
         }
     }
     Computer newComputer;
-    newComputer.m_name = roomName;
+    newComputer.m_name = newRoomName;
     newComputer.m_size = newSize;
     replace_if(this->vCom.begin(),this->vCom.end(),[&](const Computer& c)->bool {
         c.m_name == roomName;},newComputer);
     //打印显示新机房信息
     this->showComputer();
+    this->editFile(3); //将新的机房容器写入到文件中
     //将新机房信息写入文件中。可以考虑构建一个写入模板。
     system("read -p 'Press Enter to continue...' var");
     system("clear");
 }
+
+void Manager::editFile(int type) {
+    string filename;
+    ofstream ofs;
+    switch(type){
+        case 1:
+            filename = STUDENT_FILE;
+            ofs.open(filename, ios::trunc);
+            for(auto & vit : this->vStu){
+                ofs << vit.m_id <<" " << vit.m_name << " " << vit.m_pwd << endl;
+            }
+            cout << "修改学生账号信息成功" << endl;
+            break;
+        case 2:
+            filename = TEACHER_FILE;
+            ofs.open(filename, ios::trunc);
+            for(auto & vit : this->vTea){
+                ofs << vit.m_empId <<" " << vit.m_name << " " << vit.m_pwd << endl;
+            }
+            cout << "修改教师账号信息成功" << endl;
+            break;
+        case 3:
+            filename = COMPUTER_FILE;
+            ofs.open(filename, ios::trunc);
+            for(auto & vit : this->vCom){
+                ofs << vit.m_name << " " << vit.m_size << endl;
+            }
+            cout << "修改机房信息成功" << endl;
+            break;
+        default:
+            cout << "请输入正确的文件类型～" << endl;
+    }
+    ofs.close();
+    this->initVector(); //重新加载最新的相关信息
+}
+
+void Manager::editClient(int type) {
+    cout << "请输入要修改密码的用户ID：" << endl;
+    int clientID;
+    string newPWD;  //要修改的新密码
+    while(true){ //如果学号匹配失败
+        cin >> clientID;
+        if(!checkRepeat(clientID, type)){
+            cout << "不存在该用户，是否添加？" << endl;
+            cout << "1.添加" << endl;
+            cout << "2.取消" << endl;
+            int select;
+            cin >> select;
+            if(select == 1){
+                string extraName; //对于未找到清空，需要添加时的姓名
+                string extraPwd; //需要添加的密码
+                cout << "请输入该ID对应的姓名：" << endl;
+                cin >> extraName;
+                cout << "请输入该ID对应的密码：" << endl;
+                cin >> extraPwd;
+                if(type == 1){
+                    Student temp(clientID, extraName, extraPwd);
+                    this->vStu.push_back(temp);
+                    cout << "添加成功" << endl;
+                }
+                else if(type == 2){
+                    Teacher temp(clientID, extraName, extraPwd);
+                    this->vTea.push_back(temp);
+                    cout << "添加成功" << endl;
+                }
+                return;
+            }
+            else{
+                break;
+            }
+        }
+
+    }
+    if(type == 1){ //学号匹配成功
+        auto findID = find(this->vStu.begin(), this->vStu.end(), clientID);
+        cout << "匹配到学号为：" << clientID << "的用户。" << endl;
+        cout << "姓名：" << findID->m_name << "密码：" << findID->m_pwd << endl;
+        cout << "请输入新的密码：" << endl;
+        cin >> newPWD;
+        Student tempStu = *findID;
+        tempStu.m_pwd = newPWD;
+        replace_if(this->vStu.begin(), this->vStu.end(), [&](const Student& s)->bool {
+            return s.m_id == clientID;}, tempStu);    //将修改后的信息替换
+    }
+    else if(type == 2){ //职工号匹配成功
+        auto findID = find(this->vTea.begin(), this->vTea.end(), clientID);
+        cout << "匹配到职工号为：" << clientID << "的用户。" << endl;
+        cout << "姓名：" << findID->m_name << "密码：" << findID->m_pwd << endl;
+        cout << "请输入新的密码：" << endl;
+        cin >> newPWD;
+        Teacher tempTea = *findID;
+        tempTea.m_pwd = newPWD;
+        replace_if(this->vTea.begin(), this->vTea.end(), [&](const Teacher& t)->bool {
+            return t.m_empId == clientID;}, tempTea);    //将修改后的信息替换
+
+    }
+    this->editFile(type);
+
+
+}
+
+
+
 
 
 

@@ -9,6 +9,7 @@ jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifa
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifangyuyve/header/globalFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifangyuyve/header/identity.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifangyuyve/header/manager.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifangyuyve/header/orderFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifangyuyve/header/student.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifangyuyve/header/teacher.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/computerOrderSystem.cpp.o: ../jifangyuyve/source/computerOrderSystem.cpp
@@ -18,6 +19,7 @@ jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/header/
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/header/globalFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/header/identity.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/header/manager.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/header/orderFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/header/student.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/header/teacher.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/main.cpp.o: ../jifangyuyve/source/main.cpp
@@ -26,15 +28,32 @@ jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/head
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/header/globalFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/header/identity.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/header/manager.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/header/orderFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/header/student.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/header/teacher.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/manager.cpp.o: ../jifangyuyve/source/manager.cpp
 
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o: ../jifangyuyve/header/computer.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o: ../jifangyuyve/header/globalFile.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o: ../jifangyuyve/header/identity.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o: ../jifangyuyve/header/orderFile.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o: ../jifangyuyve/header/student.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o: ../jifangyuyve/header/teacher.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/orderFile.cpp.o: ../jifangyuyve/source/orderFile.cpp
+
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o: ../jifangyuyve/header/computer.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o: ../jifangyuyve/header/globalFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o: ../jifangyuyve/header/identity.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o: ../jifangyuyve/header/orderFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o: ../jifangyuyve/header/student.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o: ../jifangyuyve/header/teacher.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/student.cpp.o: ../jifangyuyve/source/student.cpp
 
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o: ../jifangyuyve/header/computer.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o: ../jifangyuyve/header/globalFile.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o: ../jifangyuyve/header/identity.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o: ../jifangyuyve/header/orderFile.h
+jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o: ../jifangyuyve/header/student.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o: ../jifangyuyve/header/teacher.h
 jifangyuyve/CMakeFiles/jifangyuyve.dir/source/teacher.cpp.o: ../jifangyuyve/source/teacher.cpp
 
